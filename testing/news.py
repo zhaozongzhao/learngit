@@ -6,6 +6,3 @@ def text(driver):
 
 def photo(driver):
     driver.find_element_by_id('com.dentist.android:id/faceIb').click()
-    driver.find_element_by_id('com.dentist.android:id/faceIb').click()
-    driver.find_element_by_id('com.dentist.android:id/faceIb').click()
-    driver.find_element_by_id('com.dentist.android:id/faceIb').click()
