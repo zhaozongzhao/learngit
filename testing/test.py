@@ -7,6 +7,7 @@ import swipe
 import Card
 import order
 import news
+import planging
 #导入需要支持的包
 def Driver():
   desired_caps = {}
@@ -23,8 +24,7 @@ def Driver():
    #代码与appium建立连接
   return driver
 driver=Driver()
-sleep(5)
-news.text(driver)
+planging.find(driver)
 
 
 
