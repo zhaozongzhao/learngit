@@ -16,7 +16,6 @@ def  user(driver):
 def system(driver):
     
 
-
-def get_name(driver, name):
+ def get_name(driver, name):
     element = driver.find_element_by_name(name)
     return element

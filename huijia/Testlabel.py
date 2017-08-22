@@ -1,28 +1,29 @@
-from login import login
+from test import count
 import unittest
-from selenium import  webdriver
-driver=webdriver.Chrome()
 
-'''class TestLabel(unittest.TestCase):
-    def setUp(self,driver):
-        driver.refresh()
-    def tset_label(self,driver):
-        h=label.add(driver,'测试1')
-        self.assertEqual(h,19)
-    def tset_labe2(self,driver):
-        h=label.add(driver,'测试2')
-        self.assertEqual(h,20)
-    def tset_labe3(self,driver):
-        h=label.add(driver,'测试3')
-        self.assertEqual(h,21)
-    def tearDown(self,driver):
-        driver.refresh()'''''
+class TestCount(unittest.TestCase):
+  def setUp(self):
+     print('开始')
+  def test_add(self):
+      j=count(2,3)
+      self.assertEqual(j.add(),5,msg='值不相等')
 
-class Testlogin(unittest.TestCase):
-    def setUp(self):
-        pass
-    def Test_login(self):
-        h=login.login(driver,'admin','123456','1234')
-        self.assertTrue(h)
-    def tearDown(self):
-        pass
+  def test_add1(self):
+      j=count(2,3)
+      self.assertEqual(j.add(),6,msg='值不相等')
+
+  def test_add2(self):
+      j=count(3,3)
+      self.assertEqual(j.add(),6,msg='值不相等')
+
+  def tesrDown(self):
+       print('结束')
+
+if __name__=='__main__':
+    suite=unittest.TestSuite()
+    #构造测试集
+    suite.addTest(TestCount('test_add1'))
+    suite.addTest(TestCount('test_add2'))
+    #执行测试
+    runner = unittest.TextTestRunnert()
+    runner.run(suite)
