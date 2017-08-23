@@ -3,57 +3,10 @@ from count import count
 import unittest
 import testadd
 import testsub
-
-
-#  unittest.main()
-'''class Mytest(unittest.TestCase):
-     def setUp(self):
-      print('开始')
-
-     def tesrDown(self):
-       print('结束')
-
-class Testadd(Mytest):
-
-  def test_add(self):
-      j=count(2,3)
-      self.assertEqual(j.add(),5,msg='值不相等')
-
-  def test_add1(self):
-      j=count(2,3)
-      self.assertEqual(j.add(),6,msg='值不相等')
-
-  def test_add2(self):
-      j=count(3,3)
-      self.assertEqual(j.add(),6,msg='值不相等')
-
-class Testsub(Mytest):
-
-  def test_sub(self):
-      j=count(2,3)
-      self.assertEqual(j.sub(),5,msg='值不相等')
-
-  def test_sub1(self):
-      j=count(2,3)
-      self.assertEqual(j.sub(),-1,msg='值不相等')
-
-  def test_sub2(self):
-      j=count(3,3)
-      self.assertEqual(j.sub(),6,msg='值不相等')
-      '''
-suite=unittest.TestSuite()
-suite.addTest(testadd.Testadd('test_add2'))
-suite.addTest(testadd.Testadd('test_add1'))
-suite.addTest(testadd.Testadd('test_add'))
-suite.addTest(testsub.Testsub('test_sub'))
-suite.addTest(testsub.Testsub('test_sub1'))
-suite.addTest(testsub.Testsub('test_sub2'))
-
-
-
-
-'''huijiar='C:\\Users\\zzz\\learngit\\huijia'
-discover=unittest.defaultTestLoader.discover(huijiar,pattern='test*py')'''
+#运行文件夹绝对不要用test开始
+#discover=找到指定目录下所有的测试模块，并可递归查到子文件下的测试模块
+huijiar='./'
+discover=unittest.defaultTestLoader.discover(huijiar,pattern='test*py')#要测试模块的目录，用例文件名的匹配原则
 
 if __name__=='__main__':
 
@@ -62,4 +15,4 @@ if __name__=='__main__':
     #执行测试
 
     runner = unittest.TextTestRunner()
-    runner.run(suite)
+    runner.run(discover)
