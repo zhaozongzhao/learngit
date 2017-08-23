@@ -1,5 +1,5 @@
 from selenium import  webdriver
-from test import count
+from count import count
 import unittest
 import testadd
 import testsub
@@ -43,6 +43,9 @@ class Testsub(Mytest):
       '''
 suite=unittest.TestSuite()
 suite.addTest(testadd.Testadd('test_add2'))
+suite.addTest(testadd.Testadd('test_add1'))
+suite.addTest(testadd.Testadd('test_add'))
+suite.addTest(testsub.Testsub('test_sub'))
 suite.addTest(testsub.Testsub('test_sub1'))
 suite.addTest(testsub.Testsub('test_sub2'))
 
