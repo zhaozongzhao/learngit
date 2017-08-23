@@ -7,4 +7,6 @@ print(h)
 w=h.strip().lstrip().rstrip(' ')
 print(w)
 
+是多少舒适
+
 
