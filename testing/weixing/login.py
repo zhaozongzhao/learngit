@@ -19,4 +19,4 @@ driver.find_element_by_id('com.tencent.mm:id/aax').click()
 sleep(3)
 h=driver.switch_to_alert().text
 print(h)
-driver.switch_to_alert().dismiss()
+'''driver.switch_to_alert().dismiss()'''
