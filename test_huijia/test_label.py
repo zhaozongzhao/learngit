@@ -1,7 +1,7 @@
-import unittest
+import unittest                             #标签管理添加
 from selenium import  webdriver
 from selenium.common.exceptions import NoAlertPresentException
-import time
+import time#
 driver=webdriver.Chrome()
 driver.implicitly_wait(10)
 driver.get('http://hj.dryork.cn/huijia/admin/main')

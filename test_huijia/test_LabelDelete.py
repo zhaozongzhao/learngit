@@ -1,8 +1,9 @@
-import unittest
+import unittest#标签管理删除
 from selenium import  webdriver
+from HTMLTestRunner import HTMLTestRunner
 from selenium.common.exceptions import NoAlertPresentException
 import time
-from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.action_chains import ActionChains#备标签管理删除
 
 
 driver=webdriver.Chrome()
@@ -46,5 +47,13 @@ class MyTest2(unittest.TestCase):
   def tearDown(self):
        driver.refresh()
 
-if __name__ == '__main__':
-       unittest.mian()
+'''if __name__ == '__main__':
+      testsuite=unittest.TestSuite
+      testsuite.addTest( MyTest2('test_add1'))
+      testsuite.addTest( MyTest2('test_add2'))
+     # runner = unittest.TextTestRunner()
+      fp=open('./result.html','wb')
+      runner=HTMLTestRunner(stream=fp,title='标签修改测试报告',description='用例测试情况')
+      #unittest.mian()
+      runner.run(testsuite)
+      fp.close()'''

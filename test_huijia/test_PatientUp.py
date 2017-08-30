@@ -1,7 +1,10 @@
-import unittest
+import unittest#患者管理详细修改
 from selenium import  webdriver
 from selenium.common.exceptions import NoAlertPresentException
 import time
+from HTMLTestRunner import  HTMLTestRunner
+
+
 driver=webdriver.Chrome()
 driver.implicitly_wait(10)
 driver.get('http://hj.dryork.cn/huijia/admin/main')
@@ -115,3 +118,14 @@ def remark(driver,name,empty):#备注信息修改
         print('第二次')
     print(test2)
     return  test1,test2
+
+if __name__ == '__main__':
+      testsuite=unittest.TestSuite
+      testsuite.addTest(details('test_Remarkadd1'))
+      testsuite.addTest( details('test_Remarkadd2'))
+     # runner = unittest.TextTestRunner()
+      fp=open('./result.html','wb')
+      runner=HTMLTestRunner(stream=fp,title='标签修改测试报告',description='用例测试情况')
+      #unittest.mian()
+      runner.run(testsuite)
+      fp.close()

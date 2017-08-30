@@ -1,4 +1,4 @@
-import unittest
+import unittest#标签管理修改
 from selenium import  webdriver
 from selenium.common.exceptions import NoAlertPresentException
 import time
@@ -21,8 +21,8 @@ class MyTest2(unittest.TestCase):
   def test_add1(self):
       driver.find_element_by_xpath('/html/body/div[2]/div[1]/ul/li[2]/a/span').click()
       driver.switch_to.frame('cframe')
-      driver.find_element_by_xpath('/html/body/div/div/div[2]/div[2]/div[4]/div[2]/ul/li[3]/a').click()
-      right_click = driver.find_element_by_xpath('/html/body/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[4]/a[1]')
+      driver.find_element_by_xpath('/html/body/div/div/div[2]/div[2]/div[2]/table/tbody/tr[10]/td[4]/a[1]').click()
+      right_click = driver.find_element_by_xpath('/html/body/div/div/div[2]/div[2]/div[2]/table/tbody/tr[10]/td[4]/a[1]')
       ActionChains(driver).double_click(right_click).perform()
       time.sleep(0.5)
       driver.find_element_by_xpath('//*[@id="labelName"]').clear()
@@ -37,8 +37,7 @@ class MyTest2(unittest.TestCase):
   def test_add2(self):
       driver.find_element_by_xpath('/html/body/div[2]/div[1]/ul/li[2]/a/span').click()
       driver.switch_to.frame('cframe')
-      driver.find_element_by_xpath('/html/body/div/div/div[2]/div[2]/div[4]/div[2]/ul/li[3]/a').click()
-      right_click = driver.find_element_by_xpath('/html/body/div/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[4]/a[1]')
+      right_click = driver.find_element_by_xpath('/html/body/div/div/div[2]/div[2]/div[2]/table/tbody/tr[10]/td[4]/a[1]')
       ActionChains(driver).double_click(right_click).perform()
       time.sleep(0.5)
       driver.find_element_by_xpath('//*[@id="labelName"]').clear()
@@ -52,7 +51,7 @@ class MyTest2(unittest.TestCase):
 
 
   def tearDown(self):
-       driver.refresh()
+      driver.refresh()
 
 if __name__ == '__main__':
        unittest.mian()
