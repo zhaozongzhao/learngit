@@ -11,6 +11,7 @@ driver.find_element_by_xpath('//*[@id="checkNumber"]').send_keys('1234')
 driver.find_element_by_xpath('/html/body/div/div/div/div/div/div[3]/div[1]/div/div/form/fieldset/div[3]/button').click()
 
 class MyTest2(unittest.TestCase):
+  '''检大夫登陆测试用例'''
 
   def setUp(self):
     driver.refresh()

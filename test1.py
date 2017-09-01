@@ -12,11 +12,11 @@ def SendEmail(fromAdd, toAdd, subject, attachfile, htmlText):
   msg['From'] = strFrom;
 
   smtp = smtplib.SMTP('smtp.qq.com');
-  smtp.login('501257367@qq.com','password');
+  smtp.login('2206321864@qq.com','kzdxkjuavfjbebhh');
   try:
     smtp.sendmail(strFrom,strTo,msg.as_string());
   finally:
     smtp.close;
 
 if __name__ == "__main__":
-  SendEmail("2206321864@qq.com","2206321864@qq.com","","hello","hello world");
+  SendEmail("2206321864@qq.com","3031371046@qq.com","","hello","hello world");
