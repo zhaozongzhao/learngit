@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923e4052-93d4-4542-a34d-4f02208b1ab2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv1/2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv1/banner.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv1/doctor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv1/entity.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv1/guide.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv1/site.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv1/test.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv1/登录界面.jgp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/.idea/testing.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/bl/.idea/bl.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/bl/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/bl/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/bl/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/bl/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/test/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/test/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/test/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/test/.idea/test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/test/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/.idea/xy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/banner.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/case.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/doctor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/entity.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/group.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/guide.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/site.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/task.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/修改前+.jgp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/修改后1+.jgp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/xy/wpsc/登录界面.jgp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/yk/wps/orderAdd.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/yk/wps/repository.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dryork/yk/wps/task.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_huijia/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_huijia/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_huijia/.idea/huijia.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_huijia/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_huijia/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_huijia/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/.idea/dictionaries/zzz.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/.idea/testing.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/weixing/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/weixing/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/weixing/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/weixing/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/weixing/.idea/weixing.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing/weixing/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore.swp" afterPath="$PROJECT_DIR$/.gitignore.swp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/learngit.iml" afterPath="$PROJECT_DIR$/.idea/learngit.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -74,6 +10,12 @@
     <ignored path="learngit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="csv1/banner.csv" />
+    <ignored path=".idea/modules.xml" />
+    <ignored path=".idea/misc.xml" />
+    <ignored path=".idea/encodings.xml" />
+    <ignored path=".idea/learngit.iml" />
+    <ignored mask="*.xml" />
+    <ignored mask=".xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtest.py">
+      <file leaf-file-name="result2017-08-31 15-08-26.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/result2017-08-31 15-08-26.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.44395924">
+              <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -117,18 +59,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="78" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_CheckDoctor/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -147,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/test_huijia/test_PatientUp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -209,6 +139,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test_huijia/test_Patient.py" />
         <option value="$PROJECT_DIR$/test_huijia/test_PatientUp.py" />
+        <option value="$PROJECT_DIR$/result2017-08-31 15-08-26.html" />
       </list>
     </option>
   </component>
@@ -244,6 +175,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,9 +184,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learngit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learngit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learngit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learngit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learngit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learngit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learngit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learngit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="csv1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,7 +263,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="972" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/csv1/banner.csv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/learngit.iml" />
   </component>
   <component name="RunManager" selected="Python tests.Unittests in test_PatientUp">
     <configuration default="false" name="Unittests in Doctor" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -567,6 +554,47 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 17h 52m 52s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 17h 53m 47s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 17h 55m 36s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 17h 57m 05s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 18h 02m 33s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 18h 05m 16s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 18h 35m 51s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 18h 38m 24s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 18h 41m 32s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_PatientUp - 2017.08.25 at 18h 44m 00s.xml">
+      <configuration name="Unittests in test_PatientUp" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
@@ -586,7 +614,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41709185" sideWeight="0.495" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39795917" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -637,54 +665,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python34/Lib/imp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_huijia/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_huijia/test_Patient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_huijia/test_PatientUp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dryork/xy/banner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -867,6 +847,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0">
+          <caret line="721" column="59" selection-start-line="721" selection-start-column="59" selection-end-line="721" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/.idea/testing.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Python34/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -920,6 +942,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84345794">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -994,26 +1023,16 @@
     <entry file="file://$PROJECT_DIR$/test_huijia/test_PatientUp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtest.py">
+    <entry file="file://$PROJECT_DIR$/result2017-08-31 15-08-26.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.44395924">
+          <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_CheckDoctor/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
