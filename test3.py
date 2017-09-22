@@ -6,7 +6,9 @@ _pwd  = "kzdxkjuavfjbebhh"
 #服务器设置地址
 _to   = "3031371046@qq.com"
 #接收邮箱地址
-msg = MIMEText("Test")
+
+sendfile=open('C:\\Users\\zzz\\learngit\\result2017-09-04 21-09-22.html','rb').read()
+msg = MIMEText('这是一个测试文案')
 #邮箱正文
 msg["Subject"] = "don't panic"
 #邮箱地址主题
