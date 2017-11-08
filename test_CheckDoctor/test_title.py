@@ -13,22 +13,50 @@ class Title1(unittest.TestCase):
 
      def setUp(self):
         driver.refresh()
-        driver.find_element_by_xpath('/html/body/div[2]/div[1]/ul/li[1]/ul/li[1]/a/span').click()
+        #driver.find_element_by_xpath('/html/body/div[2]/div[1]/ul/li[1]/ul/li[1]/a/span').click()
         driver.switch_to_frame('cframe')
 
      def test_add1(self):
-         Title(driver,'主任医生5')
-         time.sleep(0.5)
+         list = read(1)
+         Title(driver,list[1])
+         time.sleep(5)
          h=driver.switch_to_alert().text
          driver.switch_to_alert().dismiss()
          self.assertEqual(h,'操作成功！')
 
      def test_add2(self):
-         Title(driver,'主任医生6')
+         list = read(1)
+         Title(driver,list[1])
          time.sleep(0.5)
          h=driver.switch_to_alert().text
          driver.switch_to_alert().dismiss()
          self.assertEqual(h,'操作成功！')
+
+
+
+     def test_add3(self):
+         list = read(3)
+         Title(driver, list[1])
+         time.sleep(0.5)
+         h = driver.switch_to_alert().text
+         driver.switch_to_alert().dismiss()
+         self.assertEqual(h, '操作成功！')
+
+     def test_add4(self):
+        list = read(4)
+        Title(driver, list[1])
+        time.sleep(0.5)
+        h = driver.switch_to_alert().text
+        driver.switch_to_alert().dismiss()
+        self.assertEqual(h, '操作成功！')
+
+     def test_add5(self):
+                 list = read(5)
+                 Title(driver, list[1])
+                 time.sleep(0.5)
+                 h = driver.switch_to_alert().text
+                 driver.switch_to_alert().dismiss()
+                 self.assertEqual(h, '操作成功！')
 
      def tearDown(self):
          driver.refresh()
@@ -44,7 +72,7 @@ def  Title(driver,title):
 
 
 def read(h):
-    date = csv.reader(open('C:\\csv1\\2.csv','r'))
+    date = csv.reader(open('C:\\csv1\\title.csv','r'))
 
     for i ,user in enumerate(date):
         #
