@@ -35,3 +35,6 @@ try:
     print ("Success!")
 except smtplib.SMTPException as e:
     print ("Falied,%s"%e )
+
+
+这个是测试数据
