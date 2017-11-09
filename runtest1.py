@@ -77,9 +77,9 @@ def runner():
 
 
      now=time.strftime('%Y-%m-%d %H-%m-%M')
-     #定位用例存放位置
 
-     filename = report_dir + '\\'+now+"result.html"
+
+     filename = report_dir + '\\'+now+"result.html"   #定位报告用例存放位置
 
 
      fp=open(filename ,'wb')

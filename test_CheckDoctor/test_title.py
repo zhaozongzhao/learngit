@@ -17,13 +17,17 @@ class Title1(unittest.TestCase):
         driver.switch_to_frame('cframe')
 
      def test_add1(self):
-         Title(driver,'主任医生5')
+         '''职称添加验证'''
+         list=read(1)
+         Title(driver,list[1])
          time.sleep(0.5)
          h=driver.switch_to_alert().text
          driver.switch_to_alert().dismiss()
          self.assertEqual(h,'操作成功！')
 
      def test_add2(self):
+         '''职称添加验证'''
+
          Title(driver,'主任医生6')
          time.sleep(0.5)
          h=driver.switch_to_alert().text
