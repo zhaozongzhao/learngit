@@ -18,25 +18,47 @@ def tree_pentagram(distance):
     if distance > 5:
         # 绘制右侧树枝
 
-        #画右侧
-        turtle.forward(distance)
-        print('向前',distance)
-        turtle.right(20)
-        print('向右20度')
-        tree_pentagram(distance-10)
-        print('向前', distance-10 )
+       if distance < 20:
+            turtle.pencolor("green")
+            #画右侧
+            turtle.forward(distance)
+            print('向前',distance)
+            turtle.right(20)
+            print('向右20度')
+            tree_pentagram(distance-10)
+            print('向前', distance-10 )
 
-        #左侧
-        turtle.left(40)
-        print('向左20度')
-        tree_pentagram(distance - 10)
-        print('向前', distance-10)
+            #左侧
+            turtle.left(40)
+            print('向左20度')
+            tree_pentagram(distance - 10)
+            print('向前', distance-10)
 
-        #回到之前的位置
-        turtle.right(20)
-        print('向右20度')
-        turtle.backward(distance)
+            #回到之前的位置
+            turtle.right(20)
+            print('向右20度')
+            turtle.backward(distance)
+       else:
 
+           turtle.pencolor("green")
+           # 画右侧
+           turtle.forward(distance)
+           print('向前', distance)
+           turtle.right(20)
+           print('向右20度')
+           tree_pentagram(distance - 10)
+           print('向前', distance - 10)
+
+           # 左侧
+           turtle.left(40)
+           print('向左20度')
+           tree_pentagram(distance - 10)
+           print('向前', distance - 10)
+
+           # 回到之前的位置
+           turtle.right(20)
+           print('向右20度')
+           turtle.backward(distance)
 
 
 
@@ -49,7 +71,7 @@ def main():
     turtle.backward(200)
     turtle.pendown()
     turtle.pensize(5)
-    turtle.pencolor("green")
+    turtle.pencolor("red")
     tree_pentagram(100)
     turtle.exitonclick()
 
