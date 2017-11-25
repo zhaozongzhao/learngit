@@ -7,7 +7,6 @@
 
 import  math
 
-def 
 
 
 
@@ -16,7 +15,8 @@ def main():
     主函数
 
     '''
-    print('')
+    print('请输入您的计划（用空格隔开）')
+    list = input('每周存款金额 周数  每周递增金额')
     money_per_week = 10    #每周存入金额
     # i = 1                  #周数
     increase_money = 10    #递增的余额
