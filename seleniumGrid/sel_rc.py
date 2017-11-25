@@ -1,4 +1,4 @@
-from selenium import seselenium
+from selenium import webdriver
 
 sel=selenium('192.168.177.225',4444,'C','http:/www.baidu.com')
 

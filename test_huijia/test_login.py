@@ -62,6 +62,10 @@ class MyTest(unittest.TestCase):
   def tearDown(self):
        self.driver.quit()
 
+def mian():
+    test_login1()
+
+
 if __name__ =='__mian__':
     unittest.mian()
 
