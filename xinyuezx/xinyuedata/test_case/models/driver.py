@@ -11,8 +11,3 @@ def browser():
     driver = webdriver.Chrome()
     return driver
 
-if __name__ == '__main__':
-
-    dr = browser()
-    dr.get('http://xy.xinyuezx.cn/xinyue_manage/admin/main')
-    dr.quit()

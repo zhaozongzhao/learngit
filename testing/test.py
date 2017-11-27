@@ -1,15 +1,16 @@
 #coding=utf-8
 from appium import  webdriver
-from time import sleep
-from appium.webdriver.mobilecommand import MobileCommand
+# from time import sleep
+# from appium.webdriver.mobilecommand import MobileCommand
 import login
-import swipe
-import Card
-import order
-import news
-import planging
+# import swipe
+# import Card
+# import order
+# import news
+# import planging
 #导入需要支持的包
-def Driver():
+import chat
+def main():
   desired_caps = {}
   desired_caps['platformName'] = 'Android'
   desired_caps['platformVersion'] = '5.1.1'
@@ -23,8 +24,8 @@ def Driver():
   driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
    #代码与appium建立连接
   return driver
-driver=Driver()
-planging.find(driver)
-
-
+if __name__ == '__main__':
+    driver = main()
+#    login.login(driver)
+    chat.main(driver)
 
