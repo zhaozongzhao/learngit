@@ -40,13 +40,27 @@ class login(Page):
         self.open()
         self.login_username(username)
         self.login_password(password)
-        sleep(5)
-        self.login_button()
         sleep(1)
+        self.login_button()
+        sleep(3)
 
     #用戶錯誤提示
     def user_error_hini(self,driver):
 
-        return driver.switch_to_alert().text
+      h=driver.switch_to_alert().text
+      driver.switch_to_alert().dismiss()
+      return  h
+
+    def alert_dimiss(self,driver):
+
+        driver.switch_to_alert
+
+
+    user_login_success_loc = (By.XPATH,'//*[@id="navbar-container"]/div[1]/a/small')
+
+    #登陆成功
+    def user_login_success(self):
+
+        return self.find_element(*self.user_login_success_loc).text
 
 
