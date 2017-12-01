@@ -1,6 +1,6 @@
 from time import sleep
 import unittest
-from xinyuedata.test_case.models import myunit,function
+from xinyuedata.test_case.models import myunit,function,parameter
 from xinyuedata.test_case.page_obj import loginPage
 from xinyuedata.test_case.page_obj.loginPage  import login
 
