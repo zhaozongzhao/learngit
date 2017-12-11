@@ -2,12 +2,8 @@
 创建截图函数inster_img(），为保持项目的可移植性，采用相对路径将截图保存在.\report\imsge目录中
 '''
 
-
-
 from selenium import webdriver
 import os
-
-
 #截图函数
 def inster_img(driver,file_name):
     #获取当前目录

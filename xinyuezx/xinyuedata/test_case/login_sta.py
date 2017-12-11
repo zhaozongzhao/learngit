@@ -13,6 +13,7 @@ class loginTest(myunit.MyTest):
         '''
         用户名，密码为空的登陆
         '''
+
         self.user_login_verify()
         po = login(self .driver)
         #function.inster_img(self.driver,'user')

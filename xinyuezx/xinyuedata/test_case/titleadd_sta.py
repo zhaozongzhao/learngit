@@ -6,7 +6,7 @@ from xinyuedata.test_case.page_obj.foundation_diseasesPage import diseases
 from xinyuedata.test_case.page_obj.loginPage  import login
 from itertools import islice
 class titleTest(myunit.MyTest):
-    '''职称添加测试'''
+    '''添加职称，点击停用、启用按钮'''
 
     def user_login_verify(self,username='admin',password='admin123'):
         login(self.driver).user_login(username,password)
@@ -76,10 +76,17 @@ class titleTest(myunit.MyTest):
         self.assertEqual(h,'操作成功')
 
     def test_type4(self):
-        #改变职称状态
+        #职称状态改变
         list = self.state_verify()
         self.assertNotEqual(list[0],list[1])
 
+    def test_type5(self):
+       #获取列表总数
+       self.user_login_verify()
+       po = diseases(self.driver)
+       self.driver.switch_to_frame('cframe')
+       txt_str = po.list_quantity()
+       self.assertEqual(txt_str,'显示第 1 到第 8 条记录，总共 8 条记录')
 
 
 
