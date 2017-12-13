@@ -36,13 +36,11 @@ class Diseases(myunit.MyTest):
 
     #修改病种
     def modification_ververify(self,diseases):
-        self.user_login_verify()#登陆
         po = entity(self.driver)
-        po.labelling_button()#标签
-        self.driver.switch_to_frame('cframe')
         po.modification_button()
+        po.entity_input_modifi()
         po.entity_input(diseases)
-        po.save_button()
+        po.modify_confirm_button()
 
 
     #新增病种，勾选首页展示
@@ -58,7 +56,7 @@ class Diseases(myunit.MyTest):
         self.diseases_verify('病种1')
         po = entity(self.driver)
         sleep(3)
-        assert  self.assertEqual(po.title_alert(self.driver),'病种不能重复')
+        self.assertNotEqual(po.title_alert(self.driver),'病种重复不能重复')
         function.inster_img(self.driver,'repetition_diseases.jpg')
 
     #病种为空
@@ -66,7 +64,7 @@ class Diseases(myunit.MyTest):
         self.diseases_verify('')
         po = entity(self.driver)
         sleep(3)
-        assert  self.assertEqual(po.title_alert(self.driver),'病种不能为空')
+        self.assertEqual(po.title_alert(self.driver),'病种不能为空')
         function.inster_img(self.driver,'null_diseases.jpg')
 
     #长度限制
@@ -74,7 +72,7 @@ class Diseases(myunit.MyTest):
         self.diseases_verify('一二三四五六七八九十')
         po = entity(self.driver)
         sleep(3)
-        assert  self.assertEqual(po.title_alert(self.driver),'操作成功！')
+        self.assertEqual(po.title_alert(self.driver),'操作成功！')
         function.inster_img(self.driver,'Length_diseases.jpg')
 
     #字符限制
@@ -100,16 +98,24 @@ class Diseases(myunit.MyTest):
         po.labelling_button()
         self.driver.switch_to_frame('cframe')
         po.stop_button()
-        assert self.assertEqual(po.title_alert(self.driver),'操作成功')
+        self.assertEqual(po.title_alert(self.driver),'操作成功')
 
     #修改病种
     def test_add8(self):
        po = entity(self.driver)
+       self.user_login_verify()#登陆
+       #点击病种管理菜单
+       po.labelling_button()
+       #切换页面
+       self.driver.switch_to_frame('cframe')
        #获取当前病种
        h = po.acquiring_button()
        self.modification_ververify(h)
-       assert self.assertEqual(po.title_alert(self.driver),'操作成功!')
+       sleep(1)
+       self.assertEqual(po.title_alert(self.driver),'操作成功！')
 
+if __name__ == '__main__':
+    unittest.main()
 
 
 

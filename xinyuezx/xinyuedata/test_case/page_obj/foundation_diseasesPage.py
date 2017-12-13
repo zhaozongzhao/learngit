@@ -28,7 +28,7 @@ class diseases(base.Page):
 
     def save_button(self):
         '''保存操作'''
-        print('开始操作')
+        #print('开始操作')
         self.find_element(*self.Job_title_save_button_loc).click()
 
     def stop_button(self):

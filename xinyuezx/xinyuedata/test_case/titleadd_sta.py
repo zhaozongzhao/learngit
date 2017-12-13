@@ -54,6 +54,7 @@ class titleTest(myunit.MyTest):
         self.assertEqual(po.title_alert(self.driver),'职称不能重复')
         function.inster_img(self.driver,'title_repetition.jpg')
 
+
     def test_Add1(self):
         #职称不能为空
         self.user_login_verify()
@@ -92,4 +93,4 @@ class titleTest(myunit.MyTest):
 
 
 if __name__ == '__main__':
-    titleTest.operation_verify()
+    unittest.main()

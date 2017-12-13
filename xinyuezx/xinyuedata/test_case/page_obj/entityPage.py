@@ -17,6 +17,7 @@ class entity(Page):
     list_data_loc = (By.XPATH,'/html/body/div[2]/div/div/div[2]/div[1]/div[2]/div[4]/div[1]/span[1]')#列表数据
     stop_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[1]')#停用
     modification_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[2]')#修改
+    confirm_button1_loc = (By.ID,'btn1')#确定按钮
     topper_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[3]')#置顶按钮
     Moveup_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[4]')#上移按钮
     Movedown_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[5]')#下移按钮
@@ -34,6 +35,12 @@ class entity(Page):
     #病中数据输入
     def entity_input(self,entity):
         self.find_element(*self.entity_input_loc).send_keys(entity)
+
+    #清空病种输入框
+    def entity_input_modifi(self):
+        sleep(3)
+        self.find_element(*self.entity_input_loc).clear()
+
 
     #是否首页显示
     def show_click(self):
@@ -60,6 +67,10 @@ class entity(Page):
     def modification_button(self):
         self.find_element(*self.modification_button_loc).click()
 
+    #修改病种界面确定按钮
+    def modify_confirm_button(self):
+        self.find_element(*self.confirm_button1_loc).click()
+
     #置顶按钮
     def topper_button(self):
         self.find_element(*self.topper_button_loc).click()
@@ -74,11 +85,13 @@ class entity(Page):
 
     #置尾按钮
     def putthetail_button(self):
-        self.find_element(*self.putthetail_button_loc).click()
+       self.find_element(*self.putthetail_button_loc).click()
+
 
     #获取病种
     def acquiring_button(self):
-        self.find_element(*self.acquiring_button_loc).text
+        diseases_text =  self.find_element(*self.acquiring_button_loc).text
+        return diseases_text
 
 
     def title_alert(self,driver):
