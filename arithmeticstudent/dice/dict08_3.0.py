@@ -7,6 +7,7 @@
 
 '''
 import random
+import matplotlib.pyplot as plt
 
 
 def roll_dice():
@@ -21,9 +22,14 @@ def main():
     主函数
     '''
 
-    total_times = 10000
+    total_times = 100
     #初始化列表[0，0，0，0，0，0]
     result_list = [0] * 11
+
+
+    #记历两个骰子的点数
+    rool1_list = []
+    rool2_list = []
 
     #初始话点数列表
     roll_list = list(range(2,13))
@@ -33,6 +39,10 @@ def main():
        rool1 = roll_dice()
        rool2 = roll_dice()
 
+       rool1_list.append(rool1)
+       rool2_list.append(rool2
+       )
+
        for j in range(2, 13):
            if (rool1 + rool2) == j:
                roll_dict[j] += 1
@@ -40,7 +50,10 @@ def main():
         print('点数{}的次数{}，频率{}'.format(i,y,y/total_times))
 
     #数据可视化
-
+    x = range(1,total_times+1)
+    plt.scatter(x,rool1_list,alpha=0.5)
+    plt.scatter(x, rool2_list, alpha=0.5)
+    plt.show()
 
 
 

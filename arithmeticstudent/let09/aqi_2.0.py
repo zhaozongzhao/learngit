@@ -32,6 +32,7 @@ def main():
     writer = csv.writer(f)
     for line in lines:
         writer.writerow(line)
+
     f.close()
 
 
