@@ -106,7 +106,7 @@ class upgrade(base.Page):
     list_tr_object_loc = (By.TAG_NAME,'tr')#行对象
     list_td_object_loc = (By.TAG_NAME,'td')#列对象
     list_stop_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[8]/a[1]')#启用停用按钮
-    list_modification_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[8]/a[2]')#修改按钮
+    list_modification_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[8]/a[2]')#修改按
     list_statistics_data_loc = (By.XPATH,'/html/body/div[2]/div/div/div[2]/div[2]/div[2]/div[4]/div[1]/span[1]')#统计数据
 
     #获取数据
@@ -146,7 +146,9 @@ class upgrade(base.Page):
 
     #修改确定按钮
     def save_button1(self):
+
         self.find_element(*self.save_button_loc1).click()
+
 
 
 

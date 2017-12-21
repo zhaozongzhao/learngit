@@ -13,6 +13,8 @@ Desktop.ini
 *.html
 /csv1/
 .idea/
+.csv
+.jpg
 
 dist
 build

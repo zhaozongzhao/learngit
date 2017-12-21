@@ -38,7 +38,6 @@ def get_city_all():
     city_list = []
     r = requests.get(url,timeout = 30 )
     bs = BeautifulSoup(r.text,'lxml')
-
     div_list = bs.find_all('div',{'class':'bottom'})[1]
     a_list = div_list.find_all('a')
 
