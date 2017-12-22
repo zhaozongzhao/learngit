@@ -28,17 +28,17 @@ class Banner(base.Page):
     #儿童孤独症
     def diseases_children(self):
         diseases = self.diseases_select_input()
-        diseases.find_element(By.XPATH,'//*[@id="diseaseId"]/option[4]')
+        diseases.find_element(By.XPATH,'//*[@id="diseaseId"]/option[4]').click()
 
     #双相情感障碍
     def diseases_affections(self):
         diseases = self.diseases_select_input()
-        diseases.find_element(By.XPATH,'//*[@id="diseaseId"]/option[6]')
+        diseases.find_element(By.XPATH,'//*[@id="diseaseId"]/option[6]').click()
 
     #强迫症
     def diseases_ocd(self):
         diseases = self.diseases_select_input()
-        diseases.find_element(By.XPATH,'//*[@id="diseaseId"]/option[9]')
+        diseases.find_element(By.XPATH,'//*[@id="diseaseId"]/option[9]').click()
 
     #选择上传图片
     def select_input(self,filename):
@@ -62,7 +62,7 @@ class Banner(base.Page):
     stop_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[1]')#停用按钮
     modification_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[2]')#修改按钮
     target_url_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[3]')#查看目标网页
-    list_data_loc = (By.XPATH,'/html/body/div[2]/div/div/div[2]/div[1]/div[2]')#定位列表对象
+    list_data_loc = (By.XPATH,'//*[@id="recommend-table"]')#定位列表对象
     list_tr_object_loc = (By.TAG_NAME,'tr')#行对象
     list_td_object_loc = (By.TAG_NAME,'td')#列对象
 
@@ -92,12 +92,17 @@ class Banner(base.Page):
         #获取夜对象
         trlist = table.find_elements(*self.list_tr_object_loc)
         for row  in trlist:
-            tdlist = trlist.find_elements(*self.list_td_object_loc)
+            tdlist = row.find_elements(*self.list_td_object_loc)
             for col in tdlist:
-                list_data.append(col.test)
+                list_data.append(col.text)
 
         return  list_data
 
+    def title_alert(self,driver):
+        '''接收alert'''
+        h=driver.switch_to_alert().text
+        driver.switch_to_alert().dismiss()
+        return  h
 
 
 

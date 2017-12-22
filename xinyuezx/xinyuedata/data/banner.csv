@@ -1,0 +1,8 @@
+病种,文件,url,测试要求,
+儿童孤独症,E:\\3.jpg,https://www.baidu.com/,添加功能验证,0
+,E:\\3.jpg,https://www.baidu.com/,病种为空,1
+儿童孤独症,,https://www.baidu.com/,文件为空,2
+儿童孤独症,E:\\3.jpg,,url为空,3
+双相情感障碍,E:\\3.jpg,https://www.baidu.com/,选择其他病种,4
+强迫症,E:\\2.jpg,https://www.baidu.com/,选择其他图片,5
+双相情感障碍,E:\\2.jpg,https://www.baidu.com/,修改数据,6
