@@ -9,6 +9,7 @@ from itertools import islice
 from xinyuedata.test_case.models.driver import browser
 
 class Readerdata():
+    '''读取数据操作'''
     #数据库操作
     def __init__(self):
         self.diseases = 0
