@@ -89,6 +89,8 @@ class operation(Information):
             po.diseases_affections()
         elif diseases == '强迫症':
             po.diseases_ocd()
+        else:
+            pass
         po.select_input(filepath)
         po.headings_input(headings)
         po.abstracts_input(abstracts)
@@ -120,7 +122,7 @@ class operation(Information):
         po.save_button()
 
 class Informationadmin(myunit.MyTest):
-    '''资讯管理界面'''
+    '''资讯管理界面功能测试'''
 
     #基本功能验证
     def test_add1(self):
@@ -135,3 +137,60 @@ class Informationadmin(myunit.MyTest):
         sleep(1)
         title = op.title_alert(self.driver)
         self.assertEqual(title,'操作成功！')
+
+    def test_add_diseases_null(self):
+         r = Readerdata()
+         op = operation(self.driver)
+         op.new_banner_verify(r.reader_diseases()[1],
+                             r.reader_file()[1],
+                             r.reader_heading()[1],
+                             r.reader_abstracts()[1],
+                             r.reader_content()[1]
+                             )
+         sleep(1)
+         title = op.title_alert(self.driver)
+         self.assertEqual(title,'病种不能为空')
+
+
+    def test_add_filepath_null(self):
+         r = Readerdata()
+         op = operation(self.driver)
+         op.new_banner_verify(r.reader_diseases()[2],
+                             r.reader_file()[2],
+                             r.reader_heading()[2],
+                             r.reader_abstracts()[2],
+                             r.reader_content()[2]
+                             )
+         sleep(1)
+         title = op.title_alert(self.driver)
+         self.assertEqual(title,'图片不能为空')
+
+    def test_add_hesding_null(self):
+         r = Readerdata()
+         op = operation(self.driver)
+         op.new_banner_verify(r.reader_diseases()[3],
+                             r.reader_file()[3],
+                             r.reader_heading()[3],
+                             r.reader_abstracts()[3],
+                             r.reader_content()[3]
+                             )
+         sleep(1)
+         title = op.title_alert(self.driver)
+         self.assertEqual(title,'标题不能为空')
+
+
+    def test_add_abstracts_null(self):
+         r = Readerdata()
+         op = operation(self.driver)
+         op.new_banner_verify(r.reader_diseases()[4],
+                             r.reader_file()[4],
+                             r.reader_heading()[4],
+                             r.reader_abstracts()[4],
+                             r.reader_content()[4]
+                             )
+         sleep(1)
+         title = op.title_alert(self.driver)
+         self.assertEqual(title,'摘要不能为空')
+
+if __name__ == '__main__':
+    unittest.main()
