@@ -99,7 +99,7 @@ class operation(Information):
 
     #改变停用按钮
     def state_verify(self):
-        #self.iframe_verify()
+        self.iframe_verify()
         po = Information(self.driver)
         po.stop_button()
 
@@ -107,7 +107,7 @@ class operation(Information):
     def modification_verify(self,diseases,filepath,headings,abstracts,content):
         self.iframe_verify()
         po = Information(self.driver)
-        po.new_banner_button()
+        po.modification_button()
         sleep(1)
         if diseases == '儿童孤独症':
             po.diseases_children()
@@ -123,9 +123,8 @@ class operation(Information):
 
 class Informationadmin(myunit.MyTest):
     '''资讯管理界面功能测试'''
-
-    #基本功能验证
     def test_add1(self):
+        '''基本功能验证'''
         r = Readerdata()
         op = operation(self.driver)
         op.new_banner_verify(r.reader_diseases()[0],
@@ -139,6 +138,7 @@ class Informationadmin(myunit.MyTest):
         self.assertEqual(title,'操作成功！')
 
     def test_add_diseases_null(self):
+         '''病种不能为空'''
          r = Readerdata()
          op = operation(self.driver)
          op.new_banner_verify(r.reader_diseases()[1],
@@ -151,8 +151,8 @@ class Informationadmin(myunit.MyTest):
          title = op.title_alert(self.driver)
          self.assertEqual(title,'病种不能为空')
 
-
     def test_add_filepath_null(self):
+         '''上传图片不能为空'''
          r = Readerdata()
          op = operation(self.driver)
          op.new_banner_verify(r.reader_diseases()[2],
@@ -166,6 +166,7 @@ class Informationadmin(myunit.MyTest):
          self.assertEqual(title,'图片不能为空')
 
     def test_add_hesding_null(self):
+         '''标题不能为空'''
          r = Readerdata()
          op = operation(self.driver)
          op.new_banner_verify(r.reader_diseases()[3],
@@ -178,8 +179,8 @@ class Informationadmin(myunit.MyTest):
          title = op.title_alert(self.driver)
          self.assertEqual(title,'标题不能为空')
 
-
     def test_add_abstracts_null(self):
+         '''摘要不能为空 '''
          r = Readerdata()
          op = operation(self.driver)
          op.new_banner_verify(r.reader_diseases()[4],
@@ -191,6 +192,41 @@ class Informationadmin(myunit.MyTest):
          sleep(1)
          title = op.title_alert(self.driver)
          self.assertEqual(title,'摘要不能为空')
+
+    def test_add_content_null(self):
+         '''内容不能为空 '''
+         r = Readerdata()
+         op = operation(self.driver)
+         op.new_banner_verify(r.reader_diseases()[5],
+                             r.reader_file()[5],
+                             r.reader_heading()[5],
+                             r.reader_abstracts()[5],
+                             r.reader_content()[5]
+                             )
+         sleep(1)
+         title = op.title_alert(self.driver)
+         self.assertEqual(title,'内容不能为空')
+
+    def test_state(self):
+        '''改变资讯管理界面第一行的状态'''
+        op = operation(self.driver)
+        op.state_verify()
+        self.assertEqual(op.title_alert(self.driver),'操作成功')
+
+
+    def test_modification(self):
+         '''修改资讯信息'''
+         r = Readerdata()
+         op = operation(self.driver)
+         op.modification_verify(r.reader_diseases()[0],
+                              r.reader_file()[0],
+                              r.reader_heading()[0],
+                              r.reader_abstracts()[0],
+                              r.reader_content()[0])
+         sleep(1)
+         self.assertEqual(op.title_alert(self.driver),'操作成功！')
+
+
 
 if __name__ == '__main__':
     unittest.main()

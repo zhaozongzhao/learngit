@@ -71,7 +71,6 @@ class Information(base.Page):
     stop_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[1]')#停用按钮
     modification_button_loc = (By.XPATH,'//*[@id="recommend-table"]/tbody/tr[1]/td[5]/a[2]')#修改按钮statr
 
-
    #点击停用按钮
     def stop_button(self):
         self.find_element(*self.stop_button_loc).click()
