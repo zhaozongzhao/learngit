@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['index.py'],
-             pathex=['C:\\Users\\zzz\\learngit\\db'],
+a = Analysis(['login.py'],
+             pathex=['C:\\Users\\zzz\\learngit\\db\\dentistry\\dental\\case'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='index',
+          name='login',
           debug=False,
           strip=False,
           upx=True,

@@ -6,13 +6,23 @@ sys.setrecursionlimit(1500)
 from threading import Timer
 import time
 
+def code(driver):
+    vc = driver.find_element_by_xpath('//*[@id="checkNumber"]').get_attribute('value')
+    print(vc)
+    if len(vc) >=4:
+           driver.find_element_by_xpath('//*[@id="formid"]/fieldset/div[3]/button/span').click()
+
+    else:
+           time.sleep(5)
+           code(driver)
+
+
 def login():
     driver = webdriver.Chrome()
-    driver.get('http://xy.xinyuezx.cn/xinyue_manage/admin/main')
+    driver.get('http://tempmanage.dryork.cn/yueke/admin/main')
     driver.find_element_by_xpath('//*[@id="userid"]').send_keys('admin')
     driver.find_element_by_xpath('//*[@id="userpassid"]').send_keys('admin123')
-    driver.find_element_by_xpath('//*[@id="formid"]/fieldset/div[2]/button/span').click()
-    return driver
+
 
 def judge(driver):
    driver.refresh()
@@ -47,7 +57,7 @@ def operation(driver):
 
 def main():
      driver =login()
-     operation(driver)
+
 
 
 

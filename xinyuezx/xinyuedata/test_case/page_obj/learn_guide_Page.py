@@ -21,6 +21,7 @@ class Guide(base.Page):
 
     #指南名称输入
     def guide_name_button(self,guidename):
+        self.find_element(*self.guide_name_input_loc).clear()
         self.find_element(*self.guide_name_input_loc).send_keys(guidename)
 
     #指南封面上传
@@ -33,10 +34,12 @@ class Guide(base.Page):
 
     #指南目录
     def guide_directoryin_input(self,directoryin):
+        self.find_element(*self.guide_directoryin_input_loc).clear()
         self.find_element(*self.guide_directoryin_input_loc).send_keys(directoryin)
 
     #指南介绍
     def guide_introduce_input(self,introduce):
+        self.find_element(*self.guide_introduce_input_loc).clear()
         self.find_element(*self.guide_introduce_input_loc).send_keys(introduce)
 
     def save_button(self):
