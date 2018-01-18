@@ -1,20 +1,17 @@
 from selenium import  webdriver
 from time import sleep
-from threading import Timer
 import csv,os,time
 import logging
+import tkinter
+import tkinter.messagebox
 
-class Browser:
-
-  def __init__(self):
-      self.driver = webdriver.Chrome()
-
- #获取当前目录
+#文件操作类
+class operation():
 
   #获取当前目录
   def get_current_path(self,file_name):
     #获取当前目录
-    base_dir = os.path.dirname(__file__)
+    base_dir = os.getcwd()
     base_dir = str(base_dir)
     #将路径中的\\用\取代
     base = base_dir.replace('\\','/')
@@ -51,7 +48,15 @@ class Browser:
     except Exception as a:
         print('写入错误',a)
 
-  #***************************************************************************操作数据**********************
+#浏览器操作
+class Browser(operation):
+
+  def __init__(self):
+      # self.chrome_options = Options()
+      # self.chrome_options.add_argument("--disable-extensions")
+      # self.chrome_options.add_argument("--incognito")
+      self.driver = webdriver.Firefox()
+
   #登陆操作
   def login(self):
       '''登陆界面'''
@@ -87,12 +92,10 @@ class Browser:
          print(list_data)
          list_data = []
 
-
   #获取手机号码元素数据
   def get_table_phone(self):
       new_phone = self.driver.find_element_by_xpath('//*[@id="appList"]/tr[1]/td[4]').text
       return new_phone
-
   #手机号码判断
   def is_phone(self,phone):
      '''判断手机号码'''
@@ -105,7 +108,10 @@ class Browser:
          print('没有新的患者')
      elif old_phone == '' or new_phone == '':
          self.driver.refresh()
-         print('手机号码获取错误')
+         root = tkinter.Tk()
+         top = tkinter
+         top.messagebox.askokcancel('提示', '存在患者需要处理')
+         root.destroy()
      else:
          print('发短信')
 
@@ -113,21 +119,20 @@ class Browser:
          self.delete_file()
          self.list_data_get()
 
-
+  #定时任务
   def printtime(self):
     while True:
         new_phone = self.get_table_phone()
         self.is_phone(new_phone)
         self.printtime
-        time.sleep(5)
-
-
+        time.sleep(300)
 
 def main():
+
     br = Browser()
     br.login()
-    sleep(5)
-    # br.list_data_get()
+    sleep(3)
+    br.list_data_get()
     br.printtime()
 
 

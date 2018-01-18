@@ -14,7 +14,7 @@ class Browser:
   #获取当前目录
   def get_current_path(self,file_name):
     #获取当前目录
-    base_dir = os.path.dirname(__file__)
+    base_dir = os.getcwd()
     base_dir = str(base_dir)
     #将路径中的\\用\取代
     base = base_dir.replace('\\','/')
@@ -87,7 +87,6 @@ class Browser:
          print(list_data)
          list_data = []
 
-
   #获取手机号码元素数据
   def get_table_phone(self):
       new_phone = self.driver.find_element_by_xpath('//*[@id="appList"]/tr[1]/td[4]').text
@@ -119,7 +118,7 @@ class Browser:
         new_phone = self.get_table_phone()
         self.is_phone(new_phone)
         self.printtime
-        time.sleep(5)
+        time.sleep(1800)
 
 
 
@@ -127,7 +126,7 @@ def main():
     br = Browser()
     br.login()
     sleep(5)
-    # br.list_data_get()
+    br.list_data_get()
     br.printtime()
 
 

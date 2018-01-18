@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['login.py'],
-             pathex=['C:\\Users\\zzz\\learngit\\db\\dentistry\\dental\\case'],
+             pathex=['C:\\Users\\zzz\\learngit\\db\\case'],
              binaries=[],
              datas=[],
              hiddenimports=[],

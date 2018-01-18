@@ -1,0 +1,233 @@
+1515729740952	geckodriver	INFO	geckodriver 0.19.1
+1515729740963	geckodriver	INFO	Listening on 127.0.0.1:56946
+1515729743066	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.D4kzH2Ldm0Gu"
+1515729745297	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515729749931	Marionette	INFO	Listening on port 56954
+1515729750731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515729750802	Marionette	DEBUG	Register listener.js for window 4294967297
+1515729750849	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515729751246	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515729751246	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515729751738	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1515729752470	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+1515729752730	Marionette	DEBUG	Received DOM event "beforeunload" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1515729752769	Marionette	DEBUG	Received DOM event "pagehide" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1515729752770	Marionette	DEBUG	Received DOM event "unload" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1515729753591	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729753596	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729761767	Marionette	DEBUG	Received DOM event "beforeunload" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729761800	Marionette	DEBUG	Received DOM event "pagehide" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729761800	Marionette	DEBUG	Received DOM event "unload" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729761933	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1515729762357	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729762361	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 316: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 668: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[Child 12652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://global/content/browser-child.js, line 125: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://global/content/browser-child.js, line 125: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+1515729941359	Marionette	DEBUG	Received DOM event "beforeunload" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1515729941406	Marionette	DEBUG	Received DOM event "pagehide" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1515729941406	Marionette	DEBUG	Received DOM event "unload" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1515729942915	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729942919	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729950989	Marionette	DEBUG	Received DOM event "beforeunload" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729951012	Marionette	DEBUG	Received DOM event "pagehide" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729951012	Marionette	DEBUG	Received DOM event "unload" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729951095	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1515729951585	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1515729951597	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+[Parent 12704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 12704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x15008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/tab-content.js, line 316: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://browser/content/content.js, line 668: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://global/content/browser-child.js, line 125: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[Child 9004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x150001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: chrome://global/content/browser-child.js, line 125: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x15002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+
+1516279233150	geckodriver	INFO	geckodriver 0.19.1
+1516279233169	geckodriver	INFO	Listening on 127.0.0.1:50711
+1516279235282	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zzz\\AppData\\Local\\Temp\\rust_mozprofile.pmAsMh0aBw5b"
+1516279236191	Marionette	INFO	Enabled via --marionette
+1516279240020	Marionette	INFO	Listening on port 50718
+1516279240645	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516279240840	Marionette	DEBUG	Register listener.js for window 4294967297
+1516279240880	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516279241652	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516279241653	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516279241945	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1516279242074	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+1516279242370	Marionette	DEBUG	Received DOM event "beforeunload" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1516279242413	Marionette	DEBUG	Received DOM event "pagehide" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1516279242414	Marionette	DEBUG	Received DOM event "unload" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1516279243197	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279243217	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279251284	Marionette	DEBUG	Received DOM event "beforeunload" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279251319	Marionette	DEBUG	Received DOM event "pagehide" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279251319	Marionette	DEBUG	Received DOM event "unload" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279251486	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1516279251959	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279251964	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+[Child 12752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 12752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 11748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+1516280152451	geckodriver::marionette	ERROR	Failed to kill browser process
+OMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1516279939376	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+Unable to read VR Path Registry from C:\Users\zzz\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+JavaScript error: https://taiyiyun.taikang.com/saas/resources2/js/matrix.login.js?X=2017060817, line 27: ReferenceError: event is not defined
+1516279939629	Marionette	DEBUG	Received DOM event "beforeunload" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1516279939669	Marionette	DEBUG	Received DOM event "pagehide" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1516279939670	Marionette	DEBUG	Received DOM event "unload" for "https://taiyiyun.taikang.com/saas/view/saasLogin.html"
+1516279940437	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279940450	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279948551	Marionette	DEBUG	Received DOM event "beforeunload" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279948589	Marionette	DEBUG	Received DOM event "pagehide" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279948589	Marionette	DEBUG	Received DOM event "unload" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279948701	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1516279949169	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"
+1516279949196	Marionette	DEBUG	Received DOM event "pageshow" for "https://taiyiyun.taikang.com/saas/view/dentistry3.html"

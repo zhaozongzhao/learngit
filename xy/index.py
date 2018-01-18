@@ -12,7 +12,7 @@ def mian():
    top.messagebox.askokcancel('提示', '存在患者需要处理')
    root.destroy()
    print('结束')
-   t = Timer(10, mian)
+   t = Timer(100, mian)
    t.start()
 
 
