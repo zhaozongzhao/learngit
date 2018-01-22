@@ -1,15 +1,13 @@
 from selenium import  webdriver
 from time import sleep
-from threading import Timer
-import csv,os,time
+import csv,os,time,requests
 import logging
+import tkinter
+import tkinter.messagebox
+from itertools import islice
 
-class Browser:
-
-  def __init__(self):
-      self.driver = webdriver.Chrome()
-
- #获取当前目录
+#文件操作类
+class operation():
 
   #获取当前目录
   def get_current_path(self,file_name):
@@ -51,8 +49,57 @@ class Browser:
     except Exception as a:
         print('写入错误',a)
 
-  #***************************************************************************操作数据**********************
+  #读取管理员手机号码
+  def read_phone(self,filename):
+    #读取管理员手机号码
+    phone = []
+    filepath = self.get_current_path(filename)
+    dats = csv.reader(open(filepath,mode='r'))
+    for i in islice(dats,1,None):
+        phone.append(i[1])
+    return  phone
+
+  #md5加密
+  def getMd5(self,str):
+    import hashlib
+    m = hashlib.md5()
+    m.update(str.encode("utf8"))
+    return m.hexdigest()
+
+#浏览器操作
+class Browser(operation):
+
+  def __init__(self):
+      # self.chrome_options = Options()
+      # self.chrome_options.add_argument("--disable-extensions")
+      # self.chrome_options.add_argument("--incognito")
+      self.driver = webdriver.Chrome()
+
+
+  #判断短信数量
+  def sent_number_message(self):
+     password =self.getMd5('zzz@yueke!')
+     url = 'http://www.ztsms.cn/balance.do'
+     payload={"username":"channel","password":password}
+     result = requests.post(url,data=payload)
+     return result.json()
+
+  #发送短息
+  def  sent_text_message(self,phone,content):
+   try:
+         password = self.getMd5('zzz@yueke!')
+         url = 'http://www.ztsms.cn/sendSms.do'
+         for i in phone:
+             payload={"username":"channel","password":password,'mobile':int(i),"content":content,
+                   'productid':95533,'xh':0}
+             print(payload)
+             result = requests.post(url,data=payload)
+             print(result.text)
+   except Exception as errormessage:
+      print(errormessage)
+
   #登陆操作
+
   def login(self):
       '''登陆界面'''
       try:
@@ -98,34 +145,43 @@ class Browser:
      old_phone =self.read_csv()[3]
      new_phone = phone
      print(old_phone)
+     print(type(old_phone))
      print('************************')
      print(new_phone)
+     print(type(new_phone))
      if old_phone == new_phone:
          print('没有新的患者')
      elif old_phone == '' or new_phone == '':
-         self.driver.refresh()
-         print('手机号码获取错误')
+         print('手机号码错误')
+
      else:
+         self.driver.refresh()
          print('发短信')
+
+         #发短信操作
+         phone = self.read_phone('管理员信息配置.csv')
+         content = '您好，您有最新患者信息需要处理【约客牙医】'
+         self.sent_text_message(phone,content)
+         print(self.sent_number_message())
 
          #将新的患者数据写入表格
          self.delete_file()
          self.list_data_get()
 
-
+  #定时任务
   def printtime(self):
     while True:
         new_phone = self.get_table_phone()
         self.is_phone(new_phone)
         self.printtime
-        time.sleep(1800)
+        time.sleep(300)
 
-
-
+#主程序
 def main():
+
     br = Browser()
     br.login()
-    sleep(5)
+    sleep(3)
     br.list_data_get()
     br.printtime()
 

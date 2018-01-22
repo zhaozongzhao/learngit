@@ -1,12 +1,10 @@
 
-import os
+
 
 
 def find_file():
     #定义文件目录
     result_dir = 'C:\\report'
-
-
 
     #os.listdir 获取目录下所有文件及文件夹
     list = os.listdir(result_dir)
@@ -19,3 +17,9 @@ def find_file():
 
     return file ,list[-1]
 
+
+
+from selenium import webdriver
+driver = webdriver.PhantomJS()
+driver.get('http://www.baidu.com')
+print(driver.get_log('browser'))

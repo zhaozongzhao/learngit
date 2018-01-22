@@ -17,9 +17,7 @@ def get_current_path(file_name):
 def read_csv(filename):
     #读取管理员手机号码
     phone = []
-    print(filename)
     filepath = get_current_path(filename)
-    print(filepath)
     dats = csv.reader(open(filepath,mode='r'))
     for i in islice(dats,1,None):
         phone.append(i[1])
@@ -44,24 +42,24 @@ def sent_number_message():
 #发送短息
 def  sent_text_message(phone,content):
    try:
-      if sent_number_message()>0:
          password = getMd5('zzz@yueke!')
          url = 'http://www.ztsms.cn/sendSms.do'
-         payload={"username":"channel","password":password,'mobile':phone,"content":content,
-               'productid':95533,'xh':0}
-         result = requests.post(url,data=payload)
-         return result.json()
-      else:
-         print('短信数量不足')
+         for i in phone:
+             payload={"username":"channel","password":password,'mobile':int(i),"content":content,
+                   'productid':95533,'xh':0}
+             print(payload)
+             # result = requests.post(url,data=payload)
+             # print(result.text)
    except Exception as errormessage:
       print(errormessage)
 
 
 
 def main():
-  print( sent_text_message(read_csv('管理员信息配置.csv'),'测试数据'),sent_number_message())
-
-
+   phone = read_csv('管理员信息配置.csv')
+   content = '您好，您有最新患者信息需要处理【约客牙医】'
+   sent_text_message(phone,content)
+   print(sent_number_message())
 
 
 if __name__ == '__main__':

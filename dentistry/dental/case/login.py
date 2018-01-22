@@ -1,9 +1,10 @@
 from selenium import  webdriver
 from time import sleep
-import csv,os,time
+import csv,os,time,requests
 import logging
 import tkinter
 import tkinter.messagebox
+from itertools import islice
 
 #文件操作类
 class operation():
@@ -48,6 +49,23 @@ class operation():
     except Exception as a:
         print('写入错误',a)
 
+  #读取管理员手机号码
+  def read_phone(self,filename):
+    #读取管理员手机号码
+    phone = []
+    filepath = self.get_current_path(filename)
+    dats = csv.reader(open(filepath,mode='r'))
+    for i in islice(dats,1,None):
+        phone.append(i[1])
+    return  phone
+
+  #md5加密
+  def getMd5(self,str):
+    import hashlib
+    m = hashlib.md5()
+    m.update(str.encode("utf8"))
+    return m.hexdigest()
+
 #浏览器操作
 class Browser(operation):
 
@@ -55,9 +73,33 @@ class Browser(operation):
       # self.chrome_options = Options()
       # self.chrome_options.add_argument("--disable-extensions")
       # self.chrome_options.add_argument("--incognito")
-      self.driver = webdriver.Firefox()
+      self.driver = webdriver.Chrome()
+
+
+  #判断短信数量
+  def sent_number_message(self):
+     password =self.getMd5('zzz@yueke!')
+     url = 'http://www.ztsms.cn/balance.do'
+     payload={"username":"channel","password":password}
+     result = requests.post(url,data=payload)
+     return result.json()
+
+  #发送短息
+  def  sent_text_message(self,phone,content):
+   try:
+         password = self.getMd5('zzz@yueke!')
+         url = 'http://www.ztsms.cn/sendSms.do'
+         for i in phone:
+             payload={"username":"channel","password":password,'mobile':int(i),"content":content,
+                   'productid':95533,'xh':0}
+             print(payload)
+             result = requests.post(url,data=payload)
+             print(result.text)
+   except Exception as errormessage:
+      print(errormessage)
 
   #登陆操作
+
   def login(self):
       '''登陆界面'''
       try:
@@ -96,24 +138,31 @@ class Browser(operation):
   def get_table_phone(self):
       new_phone = self.driver.find_element_by_xpath('//*[@id="appList"]/tr[1]/td[4]').text
       return new_phone
+
   #手机号码判断
   def is_phone(self,phone):
      '''判断手机号码'''
      old_phone =self.read_csv()[3]
      new_phone = phone
      print(old_phone)
+     print(type(old_phone))
      print('************************')
      print(new_phone)
+     print(type(new_phone))
      if old_phone == new_phone:
          print('没有新的患者')
      elif old_phone == '' or new_phone == '':
-         self.driver.refresh()
-         root = tkinter.Tk()
-         top = tkinter
-         top.messagebox.askokcancel('提示', '存在患者需要处理')
-         root.destroy()
+         print('手机号码错误')
+
      else:
+         self.driver.refresh()
          print('发短信')
+
+         #发短信操作
+         phone = self.read_phone('管理员信息配置.csv')
+         content = '您好，您有最新患者信息需要处理【约客牙医】'
+         self.sent_text_message(phone,content)
+         print(self.sent_number_message())
 
          #将新的患者数据写入表格
          self.delete_file()
@@ -127,6 +176,7 @@ class Browser(operation):
         self.printtime
         time.sleep(300)
 
+#主程序
 def main():
 
     br = Browser()

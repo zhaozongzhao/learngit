@@ -18,10 +18,13 @@ f.write(url+'\t')
 user='admin'
 password='admin123'
 login(driver,user,password,f)
+
+
+
 #repository.repositoryAdd(driver,f)#知识库添加
 #repository.repositoryDelete(driver,f)#知识库修改
 #repository.repositoryupder(driver,f)#知识库更新
-task.daily(driver)
+# task.daily(driver)
 
 #order.ADD(driver,f)
 #driver.quit()
