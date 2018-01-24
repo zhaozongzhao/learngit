@@ -103,11 +103,11 @@ class Readerdata():
 
     #编者寄语
     def reader_remarks1(self):
-        self.remarks = []
+        self.remarks1 = []
         list = parameter.read_csv('learn_guide.csv')
         for data in islice(list,1,None):
-            self.remarks.append(data[9])
-        return  self.remarks
+            self.remarks1.append(data[9])
+        return  self.remarks1
 
 
 class operation(Guide):
@@ -177,21 +177,104 @@ class Guideadmin(myunit.MyTest):
         sleep(1)
         self.assertEqual(op.title_alert(self.driver),'指南名称不能为空')
 
+
+    def test_new_guide_introduce_null(self):
+        '''添加指南功能验证'''
+        r = Readerdata()
+        op = operation(self.driver)
+        op.new_guide(r.reader_guidename()[2],
+                     r.reader_cover()[2],
+                     r.reader_remarks()[2],
+                     r.reader_introduce()[2],
+                     r.reader_directoryin()[2])
+        sleep(1)
+        self.assertEqual(op.title_alert(self.driver),'请输入指南介绍')
+
+    def test_new_guide_directoryin_null(self):
+        '''添加指南功能验证'''
+        r = Readerdata()
+        op = operation(self.driver)
+        op.new_guide(r.reader_guidename()[3],
+                     r.reader_cover()[3],
+                     r.reader_remarks()[3],
+                     r.reader_introduce()[3],
+                     r.reader_directoryin()[3])
+        sleep(1)
+        self.assertEqual(op.title_alert(self.driver),'操作成功！')
+
     def test_new_editor(self):
         '''添加编者验证'''
         r = Readerdata()
         op = operation(self.driver)
-        op.new_editor(r.reader_name(),
-                      r.reader_head(),
-                      r.reader_position(),
-                      r.reader_synopsis(),
-                      r.reader_remarks1())
+        op.new_editor(r.reader_name()[0],
+                      r.reader_head()[0],
+                      r.reader_position()[0],
+                      r.reader_synopsis()[0],
+                      r.reader_remarks1()[0])
         sleep(1)
         self.assertEqual(op.title_alert(self.driver),'操作成功！')
 
-    def test(self):
+    def test_new_editor_name_null(self):
+        '''添加编者验证'''
         r = Readerdata()
-        print(r.reader_guidename(),r.reader_cover(),r.reader_directoryin(),r.reader_introduce(),r.reader_remarks())
+        op = operation(self.driver)
+        op.new_editor(r.reader_name()[1],
+                      r.reader_head()[1],
+                      r.reader_position()[1],
+                      r.reader_synopsis()[1],
+                      r.reader_remarks1()[1])
+        sleep(1)
+        self.assertEqual(op.title_alert(self.driver),'编辑名称不能为空')
+
+    def test_new_editor_head_null(self):
+        '''头像不能为空'''
+        r = Readerdata()
+        op = operation(self.driver)
+        op.new_editor(r.reader_name()[2],
+                      r.reader_head()[2],
+                      r.reader_position()[2],
+                      r.reader_synopsis()[2],
+                      r.reader_remarks1()[2])
+        sleep(1)
+        self.assertEqual(op.title_alert(self.driver),'缩略图不能为空')
+
+    def test_new_editor_position_null(self):
+        '''职务不能为空'''
+        r = Readerdata()
+        op = operation(self.driver)
+        op.new_editor(r.reader_name()[3],
+                      r.reader_head()[3],
+                      r.reader_position()[3],
+                      r.reader_synopsis()[3],
+                      r.reader_remarks1()[3])
+        sleep(1)
+        self.assertEqual(op.title_alert(self.driver),'职务不能为空')
+
+    def test_new_editor_synopsis_null(self):
+        '''简介不能为空'''
+        r = Readerdata()
+        op = operation(self.driver)
+        op.new_editor(r.reader_name()[4],
+                      r.reader_head()[4],
+                      r.reader_position()[4],
+                      r.reader_synopsis()[4],
+                      r.reader_remarks1()[4])
+        sleep(1)
+        self.assertEqual(op.title_alert(self.driver),'简介不能为空')
+
+    def test_new_editor_remarks1_null(self):
+        '''简介不能为空'''
+        r = Readerdata()
+        op = operation(self.driver)
+        op.new_editor(r.reader_name()[5],
+                      r.reader_head()[5],
+                      r.reader_position()[5],
+                      r.reader_synopsis()[5],
+                      r.reader_remarks1()[5])
+        sleep(1)
+        self.assertEqual(op.title_alert(self.driver),'寄语不能为空')
+
+
 
 
 if __name__ == '__main__':

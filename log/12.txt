@@ -1,0 +1,2 @@
+2018-01-16 19:55:32,277 log.py[line:64] CRITICAL This is warning message
+2018-01-16 19:55:32,277 log.py[line:65] ERROR This is warning message
