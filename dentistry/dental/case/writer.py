@@ -2,6 +2,8 @@
 # import  os,sys
 # from itertools import islice
 # from threading import Timer
+import logging
+
 #
 # h  = ['确认预约 |爽约 |核销卡券 |上传影像 |下载影像|完成就诊', '北京欢乐丽格口腔诊所有限公司', '解玢', '15811128087',
 #       '2110***3327', '', '成人', '已取消', '未上传', '', '', '', '', '--', '', '', '', '', '', '', '', '', '', '', '', ''
@@ -101,3 +103,5 @@
 #
 # logging.basicConfig(filename=os.path.join(os.getcwd(),'log.txt'),level=logging.DEBUG)
 # logging.debug('this is a message')
+
+logging.basicConfig(filename='example.log', level=logging.DEBUG)
