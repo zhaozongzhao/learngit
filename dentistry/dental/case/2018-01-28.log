@@ -1,0 +1,8 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:63402/session/a109a5d5d1c5cf18b614b1bd13dd343a/element {"using": "xpath", "value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "a109a5d5d1c5cf18b614b1bd13dd343a"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:63402/session/a109a5d5d1c5cf18b614b1bd13dd343a/element/0.3210690619013705-11/text {"id": "0.3210690619013705-11", "sessionId": "a109a5d5d1c5cf18b614b1bd13dd343a"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-28 23-32-50读取的手机号码15606829202
+WARNING:root:2018-01-28 23-32-50当前手机号码的手机号码15606829202
+INFO:root:2018-01-28 23-32-50当前没有新的患者信息
+WARNING:root:2018-01-28 23-32-50判断结束
