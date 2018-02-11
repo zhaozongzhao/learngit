@@ -2,8 +2,6 @@ from selenium import  webdriver
 from time import sleep
 import csv,os,time,requests
 import logging
-import tkinter
-import tkinter.messagebox
 from itertools import islice
 
 #文件操作类
@@ -26,14 +24,20 @@ class operation():
     file_name = self.get_current_path(filename)
     os.remove(file_name)
 
+  def read_time(self):
+      nowtime =time.strftime('%Y-%m-%d %H-%M-%S',time.localtime(time.time()))
+      return  nowtime
   #读取文件
   def read_csv(self):
     '''读取文件'''
-    filename =time.strftime('%Y-%m-%d',time.localtime(time.time()))+ '.csv'
-    file_name = self.get_current_path(filename)
-    dats = csv.reader(open(file_name,encoding='utf-8',mode='r'))
-    for user in dats:
+    try:
+      filename =time.strftime('%Y-%m-%d',time.localtime(time.time()))+ '.csv'
+      file_name = self.get_current_path(filename)
+      dats = csv.reader(open(file_name,mode='r'))
+      for user in dats:
         return user
+    except Exception as a:
+        return False
 
   #csv文件写入
   def writr_csv_file(self,list_data):
@@ -42,7 +46,7 @@ class operation():
       lines = list_data
       filename =time.strftime('%Y-%m-%d',time.localtime(time.time()))+ '.csv'
       file_name = self.get_current_path(filename)
-      with open(file_name,mode='a',encoding='utf-8',newline='') as somefile:
+      with open(file_name,mode='a',newline='') as somefile:
           writer1 = csv.writer(somefile)
           writer1.writerow(lines)
 
@@ -87,14 +91,16 @@ class Browser(operation):
   #发送短息
   def  sent_text_message(self,phone,content):
    try:
+         print('发短信')
          password = self.getMd5('zzz@yueke!')
          url = 'http://www.ztsms.cn/sendSms.do'
          for i in phone:
              payload={"username":"channel","password":password,'mobile':int(i),"content":content,
                    'productid':95533,'xh':0}
-             print(payload)
+             logging.critical(self.read_time()+'发送短信内容'+str(payload))
              result = requests.post(url,data=payload)
              print(result.text)
+             logging.critical(self.read_time()+'返回的的发送信息'+str(result.text))
    except Exception as errormessage:
       print(errormessage)
 
@@ -107,7 +113,7 @@ class Browser(operation):
          self.driver.get('https://taiyiyun.taikang.com/saas/view/saasLogin.html')#正式地址
          self.driver.find_element_by_xpath('//*[@id="loginform"]/div[1]/div/div/input').send_keys('bbykyzkj0')
          self.driver.find_element_by_xpath('//*[@id="loginform"]/div[2]/div/div/input').send_keys('bbykyzkj1234')
-         self.driver.find_element_by_xpath('//*[@id="checkBtn"]').click()
+         self.driver.find_element_by_xpath('/''/*[@id="checkBtn"]').click()
       except Exception as a:
           print('登录错误',a)
 
@@ -143,36 +149,41 @@ class Browser(operation):
   def is_phone(self,phone):
      '''判断手机号码'''
      old_phone =self.read_csv()[3]
-     new_phone = phone
-     print(old_phone)
-     print(type(old_phone))
-     print('************************')
-     print(new_phone)
-     print(type(new_phone))
-     if old_phone == new_phone:
-         print('没有新的患者')
-     elif old_phone == '' or new_phone == '':
-         print('手机号码错误')
-
-     else:
+     if old_phone:
+        logging.warning(self.read_time()+'读取的手机号码'+old_phone)
+        new_phone = phone
+        logging.warning(self.read_time()+'当前手机号码的手机号码'+new_phone)
+        print('************************')
+        if old_phone == new_phone:
+            logging.info(self.read_time()+'当前没有新的患者信息')
+        elif old_phone == '' or new_phone == '':
+               logging.error(self.read_time()+'手机号码错误')
+        else:
          self.driver.refresh()
-         print('发短信')
-
+         logging.critical(self.read_time()+'发送短信')
          #发短信操作
          phone = self.read_phone('管理员信息配置.csv')
+         logging.critical(self.read_time()+'管理员手机号码'+str(phone))
          content = '您好，您有最新患者信息需要处理【约客牙医】'
          self.sent_text_message(phone,content)
          print(self.sent_number_message())
+         logging.warning(self.read_time()+'剩余短信数量'+str(self.sent_number_message()))
 
          #将新的患者数据写入表格
          self.delete_file()
          self.list_data_get()
+     else:
+         self.list_data_get()
 
   #定时任务
   def printtime(self):
+    filename=time.strftime('%Y-%m-%d',time.localtime(time.time()))+ '.log'
+    file_name = self.get_current_path(filename)
+    logging.basicConfig(filename=file_name, level=logging.DEBUG)
     while True:
         new_phone = self.get_table_phone()
         self.is_phone(new_phone)
+        logging.warning(self.read_time()+'判断结束')
         self.printtime
         time.sleep(300)
 

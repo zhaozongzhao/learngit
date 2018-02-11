@@ -98,9 +98,9 @@ class Browser(operation):
              payload={"username":"channel","password":password,'mobile':int(i),"content":content,
                    'productid':95533,'xh':0}
              logging.critical(self.read_time()+'发送短信内容'+str(payload))
-             # result = requests.post(url,data=payload)
-             # print(result.text)
-             # logging.critical(self.read_time()+'返回的的发送信息'+str(result.text))
+             result = requests.post(url,data=payload)
+             print(result.text)
+             logging.critical(self.read_time()+'返回的的发送信息'+str(result.text))
    except Exception as errormessage:
       print(errormessage)
 
@@ -185,7 +185,7 @@ class Browser(operation):
         self.is_phone(new_phone)
         logging.warning(self.read_time()+'判断结束')
         self.printtime
-        time.sleep(100)
+        time.sleep(300)
 
 #主程序
 def main():

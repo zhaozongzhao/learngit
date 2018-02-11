@@ -6,3 +6,1005 @@ WARNING:root:2018-01-29 00-29-36读取的手机号码15606829202
 WARNING:root:2018-01-29 00-29-36当前手机号码的手机号码15606829202
 INFO:root:2018-01-29 00-29-36当前没有新的患者信息
 WARNING:root:2018-01-29 00-29-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50133/session/65661c96797ea44918396b9e9233d786/element {"sessionId": "65661c96797ea44918396b9e9233d786", "using": "xpath", "value": "//*[@id=\"appList\"]/tr[1]/td[4]"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50133/session/65661c96797ea44918396b9e9233d786/element/0.9078468921747591-11/text {"sessionId": "65661c96797ea44918396b9e9233d786", "id": "0.9078468921747591-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-12-42读取的手机号码15606829202
+WARNING:root:2018-01-29 10-12-42当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-12-42当前没有新的患者信息
+WARNING:root:2018-01-29 10-12-42判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50362/session/047e791b562f2aac6878e81bf1ad6064/element {"using": "xpath", "value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "047e791b562f2aac6878e81bf1ad6064"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-14-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-14-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-14-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-14-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-19-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-19-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-19-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-19-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-24-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-24-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-24-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-24-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-29-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-29-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-29-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-29-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-34-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-34-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-34-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-34-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-39-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-39-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-39-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-39-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-44-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-44-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-44-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-44-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-49-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-49-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-49-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-49-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-54-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-54-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-54-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-54-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 10-59-35读取的手机号码15606829202
+WARNING:root:2018-01-29 10-59-35当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 10-59-35当前没有新的患者信息
+WARNING:root:2018-01-29 10-59-35判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-04-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-04-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-04-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-04-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-09-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-09-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-09-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-09-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-14-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-14-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-14-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-14-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-19-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-19-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-19-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-19-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-24-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-24-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-24-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-24-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-29-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-29-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-29-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-29-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-34-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-34-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-34-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-34-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-39-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-39-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-39-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-39-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-44-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-44-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-44-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-44-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-49-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-49-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-49-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-49-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-54-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-54-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-54-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-54-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 11-59-36读取的手机号码15606829202
+WARNING:root:2018-01-29 11-59-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 11-59-36当前没有新的患者信息
+WARNING:root:2018-01-29 11-59-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-04-36读取的手机号码15606829202
+WARNING:root:2018-01-29 12-04-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-04-36当前没有新的患者信息
+WARNING:root:2018-01-29 12-04-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-09-36读取的手机号码15606829202
+WARNING:root:2018-01-29 12-09-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-09-36当前没有新的患者信息
+WARNING:root:2018-01-29 12-09-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-14-36读取的手机号码15606829202
+WARNING:root:2018-01-29 12-14-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-14-36当前没有新的患者信息
+WARNING:root:2018-01-29 12-14-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-19-36读取的手机号码15606829202
+WARNING:root:2018-01-29 12-19-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-19-36当前没有新的患者信息
+WARNING:root:2018-01-29 12-19-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-24-36读取的手机号码15606829202
+WARNING:root:2018-01-29 12-24-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-24-36当前没有新的患者信息
+WARNING:root:2018-01-29 12-24-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-29-36读取的手机号码15606829202
+WARNING:root:2018-01-29 12-29-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-29-36当前没有新的患者信息
+WARNING:root:2018-01-29 12-29-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-34-36读取的手机号码15606829202
+WARNING:root:2018-01-29 12-34-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-34-36当前没有新的患者信息
+WARNING:root:2018-01-29 12-34-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-39-36读取的手机号码15606829202
+WARNING:root:2018-01-29 12-39-36当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-39-36当前没有新的患者信息
+WARNING:root:2018-01-29 12-39-36判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-44-37读取的手机号码15606829202
+WARNING:root:2018-01-29 12-44-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-44-37当前没有新的患者信息
+WARNING:root:2018-01-29 12-44-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-49-37读取的手机号码15606829202
+WARNING:root:2018-01-29 12-49-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-49-37当前没有新的患者信息
+WARNING:root:2018-01-29 12-49-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-54-37读取的手机号码15606829202
+WARNING:root:2018-01-29 12-54-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-54-37当前没有新的患者信息
+WARNING:root:2018-01-29 12-54-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 12-59-37读取的手机号码15606829202
+WARNING:root:2018-01-29 12-59-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 12-59-37当前没有新的患者信息
+WARNING:root:2018-01-29 12-59-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-04-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-04-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-04-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-04-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-09-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-09-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-09-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-09-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-14-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-14-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-14-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-14-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-19-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-19-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-19-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-19-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-24-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-24-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-24-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-24-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-29-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-29-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-29-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-29-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-34-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-34-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-34-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-34-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-39-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-39-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-39-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-39-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-44-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-44-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-44-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-44-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-49-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-49-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-49-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-49-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-54-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-54-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-54-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-54-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 13-59-37读取的手机号码15606829202
+WARNING:root:2018-01-29 13-59-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 13-59-37当前没有新的患者信息
+WARNING:root:2018-01-29 13-59-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-04-37读取的手机号码15606829202
+WARNING:root:2018-01-29 14-04-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-04-37当前没有新的患者信息
+WARNING:root:2018-01-29 14-04-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-09-37读取的手机号码15606829202
+WARNING:root:2018-01-29 14-09-37当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-09-37当前没有新的患者信息
+WARNING:root:2018-01-29 14-09-37判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-14-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-14-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-14-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-14-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-19-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-19-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-19-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-19-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-24-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-24-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-24-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-24-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-29-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-29-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-29-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-29-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-34-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-34-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-34-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-34-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-39-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-39-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-39-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-39-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-44-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-44-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-44-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-44-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-49-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-49-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-49-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-49-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-54-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-54-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-54-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-54-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 14-59-38读取的手机号码15606829202
+WARNING:root:2018-01-29 14-59-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 14-59-38当前没有新的患者信息
+WARNING:root:2018-01-29 14-59-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-04-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-04-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-04-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-04-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-09-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-09-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-09-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-09-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-14-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-14-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-14-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-14-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-19-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-19-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-19-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-19-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-24-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-24-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-24-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-24-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-29-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-29-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-29-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-29-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-34-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-34-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-34-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-34-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-39-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-39-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-39-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-39-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-44-38读取的手机号码15606829202
+WARNING:root:2018-01-29 15-44-38当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-44-38当前没有新的患者信息
+WARNING:root:2018-01-29 15-44-38判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-49-39读取的手机号码15606829202
+WARNING:root:2018-01-29 15-49-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-49-39当前没有新的患者信息
+WARNING:root:2018-01-29 15-49-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-54-39读取的手机号码15606829202
+WARNING:root:2018-01-29 15-54-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-54-39当前没有新的患者信息
+WARNING:root:2018-01-29 15-54-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 15-59-39读取的手机号码15606829202
+WARNING:root:2018-01-29 15-59-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 15-59-39当前没有新的患者信息
+WARNING:root:2018-01-29 15-59-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-04-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-04-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-04-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-04-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-09-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-09-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-09-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-09-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-14-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-14-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-14-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-14-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-19-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-19-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-19-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-19-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-24-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-24-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-24-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-24-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-29-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-29-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-29-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-29-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-34-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-34-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-34-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-34-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-39-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-39-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-39-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-39-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-44-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-44-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-44-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-44-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-49-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-49-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-49-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-49-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-54-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-54-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-54-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-54-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 16-59-39读取的手机号码15606829202
+WARNING:root:2018-01-29 16-59-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 16-59-39当前没有新的患者信息
+WARNING:root:2018-01-29 16-59-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-04-39读取的手机号码15606829202
+WARNING:root:2018-01-29 17-04-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-04-39当前没有新的患者信息
+WARNING:root:2018-01-29 17-04-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-09-39读取的手机号码15606829202
+WARNING:root:2018-01-29 17-09-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-09-39当前没有新的患者信息
+WARNING:root:2018-01-29 17-09-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-14-39读取的手机号码15606829202
+WARNING:root:2018-01-29 17-14-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-14-39当前没有新的患者信息
+WARNING:root:2018-01-29 17-14-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-19-39读取的手机号码15606829202
+WARNING:root:2018-01-29 17-19-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-19-39当前没有新的患者信息
+WARNING:root:2018-01-29 17-19-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-24-39读取的手机号码15606829202
+WARNING:root:2018-01-29 17-24-39当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-24-39当前没有新的患者信息
+WARNING:root:2018-01-29 17-24-39判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-29-40读取的手机号码15606829202
+WARNING:root:2018-01-29 17-29-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-29-40当前没有新的患者信息
+WARNING:root:2018-01-29 17-29-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-34-40读取的手机号码15606829202
+WARNING:root:2018-01-29 17-34-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-34-40当前没有新的患者信息
+WARNING:root:2018-01-29 17-34-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-39-40读取的手机号码15606829202
+WARNING:root:2018-01-29 17-39-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-39-40当前没有新的患者信息
+WARNING:root:2018-01-29 17-39-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-44-40读取的手机号码15606829202
+WARNING:root:2018-01-29 17-44-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-44-40当前没有新的患者信息
+WARNING:root:2018-01-29 17-44-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-49-40读取的手机号码15606829202
+WARNING:root:2018-01-29 17-49-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-49-40当前没有新的患者信息
+WARNING:root:2018-01-29 17-49-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-54-40读取的手机号码15606829202
+WARNING:root:2018-01-29 17-54-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-54-40当前没有新的患者信息
+WARNING:root:2018-01-29 17-54-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 17-59-40读取的手机号码15606829202
+WARNING:root:2018-01-29 17-59-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 17-59-40当前没有新的患者信息
+WARNING:root:2018-01-29 17-59-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-04-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-04-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-04-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-04-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-09-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-09-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-09-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-09-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-14-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-14-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-14-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-14-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-19-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-19-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-19-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-19-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-24-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-24-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-24-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-24-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-29-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-29-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-29-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-29-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-34-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-34-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-34-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-34-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-39-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-39-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-39-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-39-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-44-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-44-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-44-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-44-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-49-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-49-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-49-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-49-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-54-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-54-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-54-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-54-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 18-59-40读取的手机号码15606829202
+WARNING:root:2018-01-29 18-59-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 18-59-40当前没有新的患者信息
+WARNING:root:2018-01-29 18-59-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-04-40读取的手机号码15606829202
+WARNING:root:2018-01-29 19-04-40当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-04-40当前没有新的患者信息
+WARNING:root:2018-01-29 19-04-40判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-09-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-09-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-09-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-09-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-14-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-14-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-14-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-14-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-19-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-19-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-19-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-19-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-24-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-24-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-24-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-24-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-29-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-29-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-29-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-29-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-34-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-34-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-34-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-34-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-39-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-39-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-39-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-39-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-44-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-44-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-44-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-44-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-49-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-49-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-49-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-49-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-54-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-54-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-54-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-54-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 19-59-41读取的手机号码15606829202
+WARNING:root:2018-01-29 19-59-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 19-59-41当前没有新的患者信息
+WARNING:root:2018-01-29 19-59-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 20-04-41读取的手机号码15606829202
+WARNING:root:2018-01-29 20-04-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 20-04-41当前没有新的患者信息
+WARNING:root:2018-01-29 20-04-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 20-09-41读取的手机号码15606829202
+WARNING:root:2018-01-29 20-09-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 20-09-41当前没有新的患者信息
+WARNING:root:2018-01-29 20-09-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 20-14-41读取的手机号码15606829202
+WARNING:root:2018-01-29 20-14-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 20-14-41当前没有新的患者信息
+WARNING:root:2018-01-29 20-14-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 20-19-41读取的手机号码15606829202
+WARNING:root:2018-01-29 20-19-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 20-19-41当前没有新的患者信息
+WARNING:root:2018-01-29 20-19-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 20-24-41读取的手机号码15606829202
+WARNING:root:2018-01-29 20-24-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 20-24-41当前没有新的患者信息
+WARNING:root:2018-01-29 20-24-41判断结束
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element {"value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "fe4fc5c5be5418477ceb5e199912041d", "using": "xpath"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50420/session/fe4fc5c5be5418477ceb5e199912041d/element/0.703142239020563-11/text {"sessionId": "fe4fc5c5be5418477ceb5e199912041d", "id": "0.703142239020563-11"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+WARNING:root:2018-01-29 20-29-41读取的手机号码15606829202
+WARNING:root:2018-01-29 20-29-41当前手机号码的手机号码15606829202
+INFO:root:2018-01-29 20-29-41当前没有新的患者信息
+WARNING:root:2018-01-29 20-29-41判断结束
