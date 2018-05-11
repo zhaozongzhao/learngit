@@ -1,0 +1,13 @@
+{
+  "test_apitest.py::TestV2exApi::()::test_node[go]": true,
+  "test_apitest.py::TestV2exApi::()::test_node[java]": true,
+  "test_apitest.py::TestV2exApi::()::test_node[nodejs]": true,
+  "test_apitest.py::TestV2exApi::()::test_node[python]": true,
+  "test_calc.py": true,
+  "test_parametrize.py::test_eval[6*9-42]": true,
+  "test_quick_start.py": true,
+  "test_user_password.py::TestUserPassword::()::test_user_password": true,
+  "test_user_password_with_params.py::TestUserPasswordWithParam::()": true,
+  "test_user_password_with_params.py::TestUserPasswordWithParam::()::test_user_password[user2]": true,
+  "test_user_password_with_params.py::TestUserPasswordWithParam::()::test_user_password[user3]": true
+}
