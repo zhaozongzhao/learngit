@@ -36,7 +36,7 @@ class Page(object):
         #对url进行判断
         return self.driver.current_url == (self.base_uel+self.url)
 
-    def _open(self,url):
+    def _opeNn(self,url):
         #实际打开url的操作
         url = self.base_uel+url
         self.driver.get(url)

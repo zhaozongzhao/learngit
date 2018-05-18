@@ -1,4 +1,5 @@
 [
+  "test_11.py::test_b",
   "test_apitest.py::TestV2exApi::()::test_node[python]",
   "test_apitest.py::TestV2exApi::()::test_node[java]",
   "test_apitest.py::TestV2exApi::()::test_node[go]",

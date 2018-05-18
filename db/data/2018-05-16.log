@@ -1,0 +1,2 @@
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:52744/session/0826d0491d937292697e67defd597450/element {"using": "xpath", "value": "//*[@id=\"appList\"]/tr[1]/td[4]", "sessionId": "0826d0491d937292697e67defd597450"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

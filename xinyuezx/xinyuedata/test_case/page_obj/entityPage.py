@@ -94,10 +94,10 @@ class entity(Page):
         return diseases_text
 
 
-    def title_alert(self,driver):
+    def title_alert(self):
         '''接收alert'''
-        h=driver.switch_to_alert().text
-        driver.switch_to_alert().dismiss()
+        h=self.driver.switch_to_alert().text
+        self.driver.switch_to_alert().dismiss()
         return  h
 
 
