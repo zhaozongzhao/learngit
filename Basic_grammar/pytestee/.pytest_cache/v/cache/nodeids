@@ -1,19 +1,4 @@
 [
-  "test_11.py::test_b",
-  "test_apitest.py::TestV2exApi::()::test_node[python]",
-  "test_apitest.py::TestV2exApi::()::test_node[java]",
-  "test_apitest.py::TestV2exApi::()::test_node[go]",
-  "test_apitest.py::TestV2exApi::()::test_node[nodejs]",
-  "test_apitest2.py::TestApiVex2::()::test_node[python-90]",
-  "test_apitest2.py::TestApiVex2::()::test_node[java-63]",
-  "test_apitest2.py::TestApiVex2::()::test_node[nodejs-436]",
-  "test_parametrize.py::test_eval[3+5-8]",
-  "test_parametrize.py::test_eval[2+4-6]",
-  "test_parametrize.py::test_eval[6*9-42]",
-  "test_user_password.py::TestUserPassword::()::test_user_password",
-  "test_user_password_with_params.py::TestUserPasswordWithParam::()::test_user_password[user0]",
-  "test_user_password_with_params.py::TestUserPasswordWithParam::()::test_user_password[user1]",
-  "test_user_password_with_params.py::TestUserPasswordWithParam::()::test_user_password[user2]",
-  "test_user_password_with_params.py::TestUserPasswordWithParam::()::test_user_password[user3]",
-  "test_user_password_with_params.py::TestUserPasswordWithParam::()::test_user_password[user4]"
+  "test_setup1.py::test_numbers_3_4",
+  "test_setup1.py::test_strings_a_3"
 ]
