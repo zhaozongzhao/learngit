@@ -1,0 +1,6 @@
+{
+  "fixture8.py::Test2::()::test_5": true,
+  "fixture8.py::Test2::()::test_6": true,
+  "test_fixture8.py::Test2::()::test_5": true,
+  "test_fixture8.py::Test2::()::test_6": true
+}

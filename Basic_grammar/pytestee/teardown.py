@@ -31,12 +31,12 @@ class TestUM:
     # =====测试用例========
 
     def test_numbers_5_6(self):
-        print 'test_numbers_5_6'
+        print ('test_numbers_5_6')
         assert multiply(5,6) == 30
 
     def test_strings_b_2(self):
-        print 'test_strings_b_2'
-        assert multiply('b',2) == 'bb'
+        print ('test_strings_b_2')
+        assert multiply('b',2) == 'sbb'
 
 if __name__ == '__main__':
-pytest.main("-s test_fixtures.py")
+    pytest.main("-s test_fixtures.py")

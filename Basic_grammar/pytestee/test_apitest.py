@@ -14,3 +14,8 @@ class TestV2exApi(object):
         res = requests.get(url).json()
         assert res['name'] == lang
         assert 0
+
+
+
+if __name__ == '__main__':
+    pytest.main()
