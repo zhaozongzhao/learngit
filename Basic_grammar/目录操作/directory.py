@@ -34,4 +34,4 @@ retval = os.getcwd() #查看修改后的工作目录
 
 print(retval)
 
-print('当前目录: %s'%os.getcwdu())
+print('当前目录:{}'.format(os.getcwd()))
