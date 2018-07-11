@@ -23,21 +23,26 @@ coon = sqlite3.connect('test.db')
 
 cursor = coon.cursor()
 
-cursor.execute('select * from user')
 
-value = cursor.fetchall()
+def get_score_in(low, high):
+    ' 返回指定分数区间的名字，按分数从低到高排序 '
+    with sqlite3.connect('test.db') as coon:
+         cursor = coon.cursor()
+         cursor.execute('select * from user')
+         value = cursor.fetchall()
+         score_list = []
+         name = []
+         for i in range(len(value)):
+              if value[i][2]>=low and value[i][2]<=high:
+                   score_list.append(value[i])
 
-score_list = []
-for i in range(len(value)-1):
-    if value[i][2]>= 80 and value[i][2] <= 95 :
-        score_list.append(value[i][2])
-#
-# for i in range(len(score_list)):
-#      for
-#
+    score_list = sorted(score_list,key =lambda score_list:score_list[2])
+    for i in score_list:
+       name.append(i[1])
 
-# def get_score_in(low, high):
-#     ' 返回指定分数区间的名字，按分数从低到高排序 '
-# ----
-#     pass
-# ----
+    return name
+
+assert get_score_in(80, 95) == ['Adam'], get_score_in(80, 95)
+assert get_score_in(60, 80) == ['Bart', 'Lisa'], get_score_in(60, 80)
+assert get_score_in(60, 100) == ['Bart', 'Lisa', 'Adam'], get_score_in(60,100)
+print('pass')
