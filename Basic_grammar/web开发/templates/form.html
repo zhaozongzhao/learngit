@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>登陆界面</title>
+</head>
+<body>
+    {% if message %}
+    <p style="color:red">{{message}}</p>
+    {% endif %}
+    <form action="/signin" method="POST">
+        <legend> Please sign in:</legend>
+        <p><input name="username" placeholder="username" value="{{username}}"></p>
+        <p><input name="password" placeholder="password" type="password"></p>
+        <p><button type="submit">登陆</button></p>
+
+
+    </form>
+
+</body>
+</html>
