@@ -21,6 +21,7 @@ def date():
     try :
         input_str_date = input('请输入某年某月某日  YY/MM/DD:')
         inpur_date = datetime.strptime(input_str_date, format('%Y/%m/%d'))
+        print(inpur_date)
 
         # 获取年月日
         year = inpur_date.year
@@ -42,7 +43,7 @@ def main():
     #定义一个
     month_day_dict = {1:31,2:28,3:31,4:30,5:31,6:30,7:31,8:31,9:30,10:31,11:30,12:31}
 
-    for i in  range(1,month):
+    for i in range(1,month):
         day += month_day_dict[i]
     if Leapyear(year):
         day+=1

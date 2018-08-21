@@ -28,7 +28,7 @@ def main():
     url_str_text = url_text_get(url)
     #print(url_str_text)
 
-    div_str = '''<div class="span12 data">
+    div_str = '''<div class="span12 data1">
         <div class="span1">
           <div class="value">
             '''

@@ -35,3 +35,5 @@ retval = os.getcwd() #查看修改后的工作目录
 print(retval)
 
 print('当前目录:{}'.format(os.getcwd()))
+
+# /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6

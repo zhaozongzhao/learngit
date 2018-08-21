@@ -17,7 +17,7 @@ def main():
     主函数
     '''
 
-    total_times = 10000
+    total_times = 5
     #初始化列表[0，0，0，0，0，0]
     result_list = [0]*6
 
@@ -28,7 +28,7 @@ def main():
                result_list[j-1]+=1
     print(result_list)
     for i,y in enumerate(result_list):
-        print('点数{}的次数{}，频率{}'.format(i,y,y/total_times))
+        print('点数{}的次数{}，频率{}'.format(i+1,y,y/total_times))
 
 
 
