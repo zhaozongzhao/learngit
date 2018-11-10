@@ -1,3 +1,0 @@
-Wed, 17 Jan 2018 13:28:16 log1.py[line:15] WARNING This is warning message
-Wed, 17 Jan 2018 13:28:16 log1.py[line:16] CRITICAL This is warning message
-Wed, 17 Jan 2018 13:28:16 log1.py[line:17] ERROR This is warning message

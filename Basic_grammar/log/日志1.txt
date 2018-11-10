@@ -1,0 +1,4 @@
+Thu, 27 Sep 2018 15:12:13 同时将日志输出到文件和屏幕.py[line:19] DEBUG this is debug message
+Thu, 27 Sep 2018 15:12:13 同时将日志输出到文件和屏幕.py[line:20] INFO this is info message
+Thu, 27 Sep 2018 15:12:13 同时将日志输出到文件和屏幕.py[line:21] WARNING this is debug message
+Thu, 27 Sep 2018 15:12:13 同时将日志输出到文件和屏幕.py[line:22] ERROR this is error message

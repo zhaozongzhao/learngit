@@ -1,8 +1,9 @@
 #职称管理
-import time
 import csv
+import time
+
+
 def add(driver,f):
-  import log
   test=csv.reader(open('C:\\testing\\xy\\wpsc\\test.csv','r'))
   for i in test:
      h=i[0]

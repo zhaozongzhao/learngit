@@ -1,0 +1,12 @@
+Thu, 27 Sep 2018 17:44:41 调用配置文件.py[line:7] DEBUG this is debug message
+Thu, 27 Sep 2018 17:44:41 调用配置文件.py[line:8] INFO this is info message
+Thu, 27 Sep 2018 17:44:41 调用配置文件.py[line:9] WARNING this is debug message
+Thu, 27 Sep 2018 17:44:41 调用配置文件.py[line:10] ERROR this is error message
+example02   : DEBUG    this is debug message
+example02   : INFO     this is info message
+example02   : WARNING  this is debug message
+example02   : ERROR    this is error message
+Thu, 27 Sep 2018 17:46:53 调用配置文件.py[line:7] DEBUG this is debug message
+Thu, 27 Sep 2018 17:46:53 调用配置文件.py[line:8] INFO this is info message
+Thu, 27 Sep 2018 17:46:53 调用配置文件.py[line:9] WARNING this is debug message
+Thu, 27 Sep 2018 17:46:53 调用配置文件.py[line:10] ERROR this is error message
