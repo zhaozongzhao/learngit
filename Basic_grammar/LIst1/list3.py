@@ -1,13 +1,13 @@
-# h = list(range(1,11))
-# print(h)
-#
-# #列表生成
-# a = [i*4 for i in range(1,11)]
-# print(a)
-#
-#
-# b = [x*x for x in range(1,11) if x %2 ==0]
-# print(b)
+h = list(range(1,11))
+print(h)
+
+#列表生成
+a = [i*4 for i in range(1,11)]
+print(a)
+
+
+b = [x*x for x in range(1,11) if x %2 ==0]
+print(b)
 
 
 #嵌套列表解析
@@ -26,3 +26,13 @@ for a in range(3):
 
 print(w)
 
+
+
+for a in range(3):
+    h = []
+    for i in matrix:
+        for int1 in range(3):
+             h.append(i[int1])
+str =str(h)
+
+print(str)

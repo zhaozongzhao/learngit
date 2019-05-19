@@ -8,6 +8,7 @@ data = {
 
 #将字典改为json
 json_str = json.dumps(data)
+#repr将函数对象转化为供解释器读取的形式
 print('python原始数据',repr(data))
 print('Json对象',json_str)
 
