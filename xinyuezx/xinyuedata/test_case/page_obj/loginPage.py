@@ -19,6 +19,9 @@ class login(Page):
     xinyue_login_button_loc = (By.XPATH,'//*[@id="formid"]/fieldset/div[2]/button')
 
 
+
+
+
     #登陆用户名
     def login_username(self,username):
         self.find_element(*self.xinyue_login_user_loc).send_keys(username)
