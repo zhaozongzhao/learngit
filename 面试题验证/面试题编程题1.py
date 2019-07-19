@@ -6,37 +6,99 @@
 # 例如：
 # 第一次计算的值为2
 # 第二次计算的值为1
-from functools import reduce
-i= 'Y'
-h = 1
-filename =  open('/Users/hnbl009/gitfile/learngit/面试题验证/1.txt','r+')
-filenamezz = filename.read()
-print(filenamezz)
-while i=='Y' or i=='y':
+# from functools import reduce
+# i= 'Y'
+# h = 1
+# filename =  open('/Users/hnbl009/gitfile/learngit/面试题验证/1.txt','r+')
+# filenamezz = filename.read()
+# print(filenamezz)
+# while i=='Y' or i=='y':
+#
+#   x = input('请输入参数以#隔开')
+#   filename.write('输入参数为{}\n'.format(x))
+#   p =  x.split('#')
+#   if len(p) >1:
+#      s =[]
+#      for i in p :
+#          try:
+#            i = float(i)
+#            s.append(i)
+#          except Exception as e:
+#            print('无效参数{}'.format(i))
+#            filename.write('无效参数{}\n'.format(i))
+#      r = reduce(lambda x,y: x*y,s)%23
+#      print('第{}次计算的值为{}'.format(h,r))
+#   elif len(p) == 1 and int(p[0])!= 0:
+#      print('第{}次计算的值为{}'.format(h,float(p[0])%23))
+#      filename.write('第{}次计算的值为{}\n'.format(h,p[0]))
+#   else:
+#       print('输入的数字无效{}'.format(p))
+#
+#
+#
+#   h+=1
+#   i= input('是否退出,继续Y 退出N')
+#
+# filename.close()
 
-  x = input('请输入参数以#隔开')
-  filename.write('输入参数为{}\n'.format(x))
-  p =  x.split('#')
-  if len(p) >1:
-     s =[]
-     for i in p :
-         try:
-           i = float(i)
-           s.append(i)
-         except Exception as e:
-           print('无效参数{}'.format(i))
-           filename.write('无效参数{}\n'.format(i))
-     r = reduce(lambda x,y: x*y,s)%23
-     print('第{}次计算的值为{}'.format(h,r))
-  elif len(p) == 1 and int(p[0])!= 0:
-     print('第{}次计算的值为{}'.format(h,float(p[0])%23))
-     filename.write('第{}次计算的值为{}\n'.format(h,p[0]))
-  else:
-      print('输入的数字无效{}'.format(p))
+# 面试题2:
+# 创建一个老板类Boss：
+# •	拥有金钱、商品 、员工列表 3 个属性，（4分）
+# •	一个雇佣员工的方法（把员工添加到员工列表中）;（2分）
+# •	卖产品的方法（卖一个商品品能够获得金钱10），（2分）
+#
+# 创建一个员工类Employee：
+# •	拥有 熟练度 属性(熟练度每年增加50) （2分）
+# •	有一个工作的方法（每个员工每个月生产商品的数量等于员工的技能熟练度，并且需要 boss 支付2000元工资）（5分）
+# 老板的初始化金钱为10000,产品为0，第一年只雇佣一个员工，以后每年会增加一个员工（员工初始化熟练度为300，熟练度最高可以达到500），定义一个函数，计算10年后老板的金钱为多少？(10分)
+
+class Boss():
+
+    def __init__(self,money,goods,list3):
+        self.money = money
+        self.goods = goods
+        self.list3 = list3
+
+    def employees(self,emplyess):
+         self.list3.append(emplyess)
+         return self.list3
+
+    def sell(self,num):
+      self.good =self.goods-num
+
+      self.money = num * 10
+      return self.money
 
 
 
-  h+=1
-  i= input('是否退出,继续Y 退出N')
+class Employee(Boss):
 
-filename.close()
+    def __init__(self,proficiency,attribute=300):
+        self.attribute = attribute
+        self.proficiency = proficiency
+
+
+    def yearattribute(self):
+        if self.attribute >500:
+           return  self.attribute+50
+        else:
+           return  self.attribute
+
+    def yearwork(self,goods,moneys):
+
+        self.attribute = self.attribute + goods
+        moneys  = moneys-2000
+
+        return self.attribute,moneys
+
+
+
+
+
+
+list=[]
+Boss =Boss(0,100,list)
+print(Boss.employees('张三'))
+print(Boss.sell(5))
+
+
