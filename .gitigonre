@@ -9,6 +9,7 @@ Desktop.ini
 *.xml
 *.iml
 *.png
+*.iml
 dist
 build
 .idea
