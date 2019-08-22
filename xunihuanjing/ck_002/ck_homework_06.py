@@ -41,9 +41,13 @@ class Course(object):
         if key == 'name':
             if isinstance(value,str):
                 object.__setattr__(self,key,value)
+            else:
+                print('name 字段输入的参数不是str')
         elif key == 'age':
             if isinstance(value, int):
                 object.__setattr__(self, key, value)
+            else:
+                print('key 字段输入的参数不是int')
         else:
             object.__setattr__(self,key,value)
 

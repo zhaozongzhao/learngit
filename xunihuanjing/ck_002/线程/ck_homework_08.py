@@ -33,38 +33,37 @@ def func2(func):
         print('程序运行时间{}秒'.format(etime - stime))
 
     return wrapper
-# #创建一把锁
-# meta =  Lock()
-#
-# #定义线程类
-# class Mythead(Thread):
-#
-#      def __init__(self,url,name):
-#          super().__init__()
-#          self.url = url
-#          self.name = name
-#
-#      def run(self):
-#          for i in  range(101):
-#              meta.acquire()   #上锁
-#              requests.get(self.url)
-#              meta.release()   #解锁
-#              print('线程{},第{}次请求'.format(self.name,i))
-#
-#
-#
-#
-# @func2
-# def main():
-#     t_list = []
-#     for i  in range(3):
-#         t = Mythead('https://www.douban.com','线程{}'.format(i+1))
-#         t.start()
-#         t_list.append(t)
-#
-#     #遍历所有线程对象,等待子线程执行完成
-#     for t in t_list:
-#         t.join()
+
+
+#定义线程类
+class Mythead(Thread):
+
+     def __init__(self,url,name):
+         super().__init__()
+         self.url = url
+         self.name = name
+
+     def run(self):
+         for i in  range(101):
+             meta.acquire()   #上锁
+             requests.get(self.url)
+             meta.release()   #解锁
+             print('线程{},第{}次请求'.format(self.name,i))
+
+
+
+
+@func2
+def main():
+    t_list = []
+    for i  in range(3):
+        t = Mythead('https://www.douban.com','线程{}'.format(i+1))
+        t.start()
+        t_list.append(t)
+
+    #遍历所有线程对象,等待子线程执行完成
+    for t in t_list:
+        t.join()
 
 
 # 通过多线程实现一个文件复制器，传入一个路径，通过os模块相关方法获取该目录下所有的文件名，然后开启多线程对每个文件进行复制
@@ -72,18 +71,21 @@ def func2(func):
 import os
 import shutil
 
+
+
 #返回文件夹下所有的文件地址
 def copy_file(filepath):
 
     file_list = []
     for filename in os.listdir(filepath): #返回包含目录中文件名称的列表。
-        res = os.path.join(filepath, filename)
+        res = os.path.join(filepath, filename) #拼接每一个文件的路径并以列表的形式返回
         file_list.append(res)
 
-    return filepath
+    return file_list
 
 
-
+# 创建一把锁
+meta =  Lock()
 #定义线程类
 class Mythead2(Thread):
 
@@ -94,32 +96,34 @@ class Mythead2(Thread):
          self.name = name
 
      def run(self):
-          path = shutil.copy(filepath,filepath)
-          print('线程{}复制文件完成'+ path)
+          meta.acquire()  # 上锁
+          path = shutil.copy(self.filepath,self.newpath)
+          meta.release()  # 解锁
+          print('线程{}文件{}复制完成'.format(self.name,self.filepath))
 
-filepath = '/Users/hnbl009/gitfile/learngit/Basic_grammar/excel操作'
-newpath  = '/Users/hnbl009/gitfile/learngit/xunihuanjing/ck_002/线程/student'
+filepath = 'F:\gitstorehouse\learngit\\xunihuanjing\class_ckj01'
+newpath  = 'F:\\gitstorehouse\\learngit\\xunihuanjing\\ck_002\\线程\\student'
 
 @func2
 def main1():
     filepaths = copy_file(filepath)
     t_list = []
+    n = 1
     for i  in filepaths:
-        print(i)
-        # t = Mythead2(i,newpath,i)
-        # t.start()
+         t = Mythead2(i,newpath,n)
+         t.start()
+         n +=1
 
-
-
-    # #遍历所有线程对象,等待子线程执行完成
-    # for t in t_list:
-    #     t.join()
+    #遍历所有线程对象,等待子线程执行完成
+    for t in t_list:
+        t.join()
 
 
 
 
 
 if __name__ == '__main__':
+    main()
     main1()
 
 

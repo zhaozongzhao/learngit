@@ -51,13 +51,18 @@ def conversion(li2):
     print(li3)
 
 
+a = [1,2,3]
+b = ['a', 'b', 'c']
+print(list(zip(b, a)))
 
 
 
-if __name__ == '__main__':
-    li = [11, 21, 4, 55, 6, 67, 123, 54, 66, 9, 90, 56, 34, 22]
-    li2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-    print('兔子总数为{}对'.format (rabbit_number(20)))
-    print('100元钱 买100本书 共有{}中方法'.format(Buy_book(100,100)))
-    print(list(judge3(li)))
-    conversion(li2)
+
+
+# if __name__ == '__main__':
+#     li = [11, 21, 4, 55, 6, 67, 123, 54, 66, 9, 90, 56, 34, 22]
+#     li2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+#     print('兔子总数为{}对'.format (rabbit_number(20)))
+#     print('100元钱 买100本书 共有{}中方法'.format(Buy_book(100,100)))
+#     print(list(judge3(li)))
+#     conversion(li2)

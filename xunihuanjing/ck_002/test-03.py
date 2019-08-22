@@ -34,8 +34,9 @@
 #        return  func_add(n-1) + n
 # print(func_add1(10000))
 
-
-# print((lambda  x:x*2)(2))
+h =2
+print((lambda  x:x*2)(2))
+print((lambda  x:x*2))
 #偏函数
 # from functools import partial
 # def func11(a,b,c):
