@@ -86,6 +86,7 @@ def copy_file(filepath):
 
 # 创建一把锁
 meta =  Lock()
+
 #定义线程类
 class Mythead2(Thread):
 
