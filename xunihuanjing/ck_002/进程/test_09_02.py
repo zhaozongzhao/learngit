@@ -38,13 +38,14 @@ class MyProcess(Process):
 
     def run(self):  # 执行的方法
         meto.acquire()  # 上锁
-        with open('test.txt', mode='a', encoding='utf-8')  as f:
-            for i in range(5):
+        for i in range(10):
+           with open('test.txt', mode='a', encoding='utf-8')  as f:
                 # 获取进程id的两种方式一种self.pid 一种os.pid
                 print('进程{}正在写入'.format(os.getpid()))
                 print('进程{}正在写入'.format(self.pid))
                 f.write('python/t')
                 time.sleep(1)
+        time.sleep(1)
         meto.release()  # 解锁
 
 
@@ -55,11 +56,12 @@ class MyProcess2(Process):
 
     def run(self):  # 执行的方法
         meto.acquire()  # 上锁
-        with open('test.txt', mode='a', encoding='utf-8')  as f:
-            for i in range(5):
+        for i in range(10):
+           with open('test.txt', mode='a', encoding='utf-8')  as f:
                 print('进程{}正在写入'.format(self.pid))  # 获取进程id的两种方式一种self.pid 一种os.pid
                 f.write('java\n')
                 time.sleep(1)
+        time.sleep(1)
         meto.release()  # 解锁
 
 

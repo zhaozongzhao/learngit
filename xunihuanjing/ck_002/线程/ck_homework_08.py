@@ -124,12 +124,8 @@ def main():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-    main()
-=======
-    # main()
-    main1()
->>>>>>> 71dc13de8cbadadfb38912d8551ac50408893327
+     main()
+
 
 
 
