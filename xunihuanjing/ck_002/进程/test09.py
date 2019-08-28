@@ -45,3 +45,5 @@ print(pQ.get())
 # # 判断队列是否为空
 # print(cq.empty())
 #
+# from  multiprocessing import Process
+#  h =  Process()

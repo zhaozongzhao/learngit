@@ -66,6 +66,60 @@ def main():
         t.join()
 
 
+<<<<<<< HEAD
+# 通过多线程实现一个文件复制器，传入一个路径，通过os模块相关方法获取该目录下所有的文件名，然后开启多线程对每个文件进行复制
+
+import os
+import shutil
+
+
+
+#返回文件夹下所有的文件地址
+def copy_file(filepath):
+
+    file_list = []
+    for filename in os.listdir(filepath): #返回包含目录中文件名称的列表。
+        res = os.path.join(filepath, filename) #拼接每一个文件的路径并以列表的形式返回
+        file_list.append(res)
+
+    return file_list
+
+
+# 创建一把锁
+meta =  Lock()
+
+#定义线程类
+class Mythead2(Thread):
+
+     def __init__(self,filepath,newpath,name):
+         super().__init__()
+         self.filepath = filepath
+         self.newpath = newpath
+         self.name = name
+
+     def run(self):
+          meta.acquire()  # 上锁
+          path = shutil.copy(self.filepath,self.newpath)
+          meta.release()  # 解锁
+          print('线程{}文件{}复制完成'.format(self.name,self.filepath))
+
+filepath = 'F:\gitstorehouse\learngit\\xunihuanjing\class_ckj01'
+newpath  = 'F:\\gitstorehouse\\learngit\\xunihuanjing\\ck_002\\线程\\student'
+
+@func2
+def main1():
+    filepaths = copy_file(filepath)
+    t_list = []
+    n = 1
+    for i  in filepaths:
+         t = Mythead2(i,newpath,n)
+         t.start()
+         n +=1
+
+    #遍历所有线程对象,等待子线程执行完成
+    for t in t_list:
+        t.join()
+=======
 # # 通过多线程实现一个文件复制器，传入一个路径，通过os模块相关方法获取该目录下所有的文件名，然后开启多线程对每个文件进行复制
 #
 # import os
@@ -118,6 +172,7 @@ def main():
 #     #遍历所有线程对象,等待子线程执行完成
 #     for t in t_list:
 #         t.join()
+>>>>>>> d9cb0c20928c6611954936a653fa04583d1751a1
 
 
 
