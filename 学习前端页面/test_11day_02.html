@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>form表单</title>
+    <title>form表单</title>
     <meta charset=utf-8>
 </head>
 <body>
 <!-- 表单 -->
 <form action="127.0.0.1" method="get">
-	<!-- 文本输入框 -->
-	 用户名: <input type="text" name="user"  placeholder="用户名"><br>
-	 <!-- 密码输入框 -->
-     密码 : <input type="password" name="pass"  placeholder="密码"><br>
 
-      <!-- 单选框 -->
-      单选框<br>
-      <input type="radio" name="like" value="打篮球"> 男
-      <input type="radio" name="like" value="打篮球"> 女
-      <input type="radio" name="like" value="打篮球"> 人妖<br>
+    <!--绑定输入框 -->
+    <label for="user1">用户名:</label>
+    <!-- 文本输入框 -->
+    <input type="text" name="user" placeholder="用户名" id="user1"><br>
+    <!-- 密码输入框 -->
+    密码 : <input type="password" name="pass" placeholder="密码"><br>
 
-      <!-- 多选框  属性民成可以相同-->
-      <input type="checkbox" name="skill" value="pyrhon"> python
-      <input type="checkbox" name="skill" value="java"> java
-      <input type="checkbox" name="skill" value="c"> c
-      <input type="checkbox" name="skill" value="pyrhon"> sql
-      <input type="checkbox" name="skill" value="pyrhon"> c++<br>
+    <!--下拉选择框-->
+    <label for="select">城市</label>
+    <select name="select" id="select">
+        <option value="北京">北京</option>
+        <option value="长安">长安"</option>
+        <option value="南京">南京</option>
 
-  
+
+    </select>
+
+
+    <!-- 单选框 -->
+    单选框<br>
+    <input type="radio" name="like" value="打篮球" id="01"> <label for="01">男</label>
+    <input type="radio" name="like" value="打篮球"> 女
+    <input type="radio" name="like" value="打篮球"> 人妖<br>
+
+    <!-- 多选框  属性民成可以相同-->
+    <input type="checkbox" name="skill" value="pyrhon"> python
+    <input type="checkbox" name="skill" value="java"> java
+    <input type="checkbox" name="skill" value="c"> c
+    <input type="checkbox" name="skill" value="pyrhon"> sql
+    <input type="checkbox" name="skill" value="pyrhon"> c++<br>
+
+
     <!-- 文件上传 -->
     文件上传： <input type="file" name="file"><br>
 
     <!-- 普通按钮 -->
     <input type="button" name="uttonb" value="普通">
-    
+
     <!-- 图片按钮 -->
     <input type="image" name="sss" src="tu/1.jpg">
 
@@ -39,18 +53,22 @@
     <input type="hidden" name="呢大衣" value="sjdkahkjsahdkjash">
 
     <br>
-
+    <!--大文本输入框 每行可以输入30个字符可以写20行-->
+    <label for="04"></label>
+    <textarea name="info" cols="30" rows="20" id="04"></textarea>
     <!-- 提交按钮 -->
-    <button type="submit" >提交按钮</button>
+    <button type="submit">提交按钮</button>
     <br>
-    <input type="submit"  value="提交按钮">
+    <input type="submit" value="提交按钮">
 
     <!-- 重置按钮 -->
+
     <input type="reset" name="z函数" value="重置">
 
- 
+    <!--内联框架-->
+    <br>
+     <iframe src="https://www.baidu.com">简书</iframe>
 
-	
 </form>
 </body>
 </html>
