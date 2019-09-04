@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css02</title>
+    <style>
+      /*标签选择器*/
+      body{
+      /*background:red*/
+	   /* background-image : url('css/1.jpg'); */
+	   /* background-repeat: no-repeat; */
+	   /*背景图片center 居中 top 上 right 右等可组合*/
+	  /* background-position:center top;*/
+	  /*  background-position: right center ;*/
+	  /*background-position:  center left ;*/
+	  /*背景图片根据定位像素点开始*/
+	  background-position: 200px 100px;
+
+      }
+	  /* 修改背景颜色方法1 */
+	  /*类选择器*/
+	  .box1{
+		  background: rgb(30 ,144 ,255);
+		  color:saddlebrown ;
+	  }
+	    /* 修改背景颜色方法2 */
+      .box3{
+		  background: red;
+		  color: black;
+          /*租户设置字体  是否加粗 字体大小/行高  字体*/
+          font: bold 22px/40px "微软雅黑";
+          /*文字缩进*/
+          text-indent: 20px;
+          /*文字居中*/
+          text-align: center;
+
+	  }
+	    /* 修改背景颜色方法3 */
+	  .box2{
+	  	  width: 200px;
+		  height: 100px;
+	  	  background: rgb(0,255,255);
+	  	  /*设置文字颜色*/
+		  color: #8B0000;
+		  /*设备文字大小*/
+		  font-size: 22px; 
+	  }
+	  .box4{
+	     width: 200px;
+		 height: 100px;
+         background-image: url('css/1.jpg');
+		 background:rgb(0.001);
+		 
+
+	  }
+	  /*id选择器*/
+      #box5{
+           width: 200px;
+           height: 300px;
+           background: red;
+            /*3个元素必须全*/
+           font: normal 30px/40px  "微软雅黑";
+           text-align: center;
+
+      }
+      /*属性选择器*/
+      li[name]{
+
+      	width: 20px;
+      	height:30px;
+      	font-size: 22px;
+      	color: red;
+      }
+      /*层级选择器*/
+      .box6{
+
+      	background: red;
+      	color: rgb(0,255,255);
+      }
+      /*组选择器*/
+      h1,h2,h3{
+      	color: blue;
+      }
+    /*伪选择器*/
+      .box1:hover{
+       color: red;
+       background: rgb(11,22,33,0.1);
+
+      }
+
+
+
+
+    </style>
+</head>
+<body>
+	<div class="box1">1 </div>
+	<div class="box2">sdjashdkjasdsak</div>
+	<div class="box3">sasa</div>
+	<div class="box4">ghjhjhj</div>
+	<div class="box5" id ='box5' >box5</div>
+    <ul>
+    	<li name='1'>1</li>
+    	<li name='2'>2</li>
+    	<li name='3'>3</li>
+    </ul>
+    <div class="box6">
+    	<div>
+    		<span>python</span>
+    	</div>
+    </div>
+    <h1>sa</h1>
+    <h2>sa</h2>
+    <h3>hs</h3>
+dsaffa
+</body>
+</html>
