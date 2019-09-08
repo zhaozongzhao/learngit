@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      .menu{
+          width: 100%;
+          height: 50px;
+          background: rgb(116, 114, 151);
+          color: white;
+          display: none;
+        
+
+      }
+      .menu li{
+          float: left;
+          background: blueviolet;
+          color: rgb(0, 0, 0); 
+          width: 100px;
+          height: 50px; 
+          font: normal 22px/50px '微软雅黑'; 
+          text-align: center;
+          list-style-type: none;
+          margin-left: 5px;
+         
+
+
+      }
+      .menu li:hover{
+          background: red;
+          color: blue;
+
+           
+      }
+    
+    </style>
+
+</head>
+<body>
+<div class="menu" id="menu">
+   <ul>
+       <li>菜单一</li>
+       <li>菜单二</li>
+       <li>菜单三</li>
+       <li>菜单四</li>
+       <li>菜单五</li>
+       <li>菜单六</li>
+       <li>菜单一</li>
+       <li>菜单二</li>
+       <li>菜单三</li>
+       <li>菜单四</li>
+       <li>菜单五</li>
+       <li>菜单六</li>
+   </ul>
+</div>
+
+   <div class="box2" onclick="dj()">显示</div>
+
+   <script type="text/javascript">
+        function dj() {
+            document.getElementById('menu').style['display']='block';
+            
+        } 
+
+   </script>
+
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选项卡</title>
+    <script type="text/javascript" src="jquery_study/jquery-1.12.4.min.js"></script>
+    <style>
+        .title{
+         width: 100%;
+         height: 40px;;
+         background: bisque;  
+       } 
+       li{
+        float: left;
+        width: 100px;
+        height: 40px;
+        list-style-type: none;
+        margin-left: 2px;
+        background: rgb(134, 134, 209);
+        font: normal 17px/40px '微软雅黑';
+
+       }
+
+    </style>
+</head>
+<body>
+    <div class='title'>
+       <ul>
+           <li id ='one'>第一个菜单</li>
+           <li id ='two'>第二个菜单</li>
+       </ul>
+
+    </div>
+    <div class="one" style="display: none">界面1</div>
+    <div class="two" style="display: none">界面2</div>
+
+<script>
+$(function(){
+     $('#one').click(
+         function(){
+            $('.one').show().next().hide();
+
+         }
+       
+     )
+     $('#two').click(
+         function(){
+            $('.two').show().prev().hide();
+
+         }
+       
+     )
+
+})
+
+</script>
+
+</body>
+</html>
