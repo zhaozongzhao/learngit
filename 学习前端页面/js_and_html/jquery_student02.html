@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>效果函数</title>
+    <style>
+     .box{
+        width: 300px;
+        height: 400px;
+        background: red;
+
+     }
+     </style>
+    <script type="text/javascript" src="jquery_study/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+ <input id= 'btm' type="button" value="按钮"  >
+ <div class="box"  style="display: none"></div> 
+ <script>
+     $(function(){
+        $('#btm').click(function(){
+           //  toggle 改变隐藏状态
+            //   $('.box').toggle();
+            // 从上向下加载显示
+              $('.box').slideToggle()
+         
+
+        })
+
+
+    })
+</script>
+
+
+        
+    
+ </script>
+
+</body>
+</html>

@@ -31,21 +31,25 @@
        </ul>
 
     </div>
-    <div class="one" style="display: none">界面1</div>
-    <div class="two" style="display: none">界面2</div>
+    <div>
+        <div class="one" style="display: none">界面1</div>
+        <div class="two" style="display: none">界面2</div>
+
+    </div>
+   
 
 <script>
 $(function(){
      $('#one').click(
          function(){
-            $('.one').show().next().hide();
+            $('.one').show().siblings().hide();
 
          }
        
      )
      $('#two').click(
          function(){
-            $('.two').show().prev().hide();
+            $('.two').show().siblings().hide();
 
          }
        
