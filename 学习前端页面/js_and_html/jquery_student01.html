@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--1, jquery选择器
+    2, 查找关系元素 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery操作</title>
+    <script type="text/javascript" src="jquery_study/jquery-1.12.4.min.js"></script>
+    <!-- <style type="text/css">
+      .box1{
+        font-size: 22px;
+
+      }
+     -->
+    </style>
+
+</head>
+<body>
+    <ul id="ul2">
+        <li name='zzz'>1</li>
+        <li id = 'li2'>2</li>
+        <li ><a href="hhh">haha</a></li>
+        <li>4</li>
+        <li id= 'li5'>5</li>
+    </ul>
+    <input type="text" name="zzz"  placeholder="亲属恶如">
+    <div class="box1" id = "box1">div1</div>
+    <script>
+    //  jquery选择器
+    //类选择器
+    $(".box1").css('height','200px');
+    // id选择器
+    $("#box1").css('background','red');
+    // 标签选择器
+    $("li").css("color","blue");
+    // 层级选择器
+    $("ul li").css('background','red');
+    // 属性选择器
+    $('li[name=zzz]').css('color','#54ff00');
+
+    // 查找关系元素
+    // 选择当前元素前面挨着的元素
+    var prev1 =  $("#li2").prev();
+    alert(prev1.text());
+    console.log(prev1.text());
+    // 选择当前元素后面挨着的元素
+    var next1 = $("#li2").next().text()
+    alert(next1)
+    // 选择当前元素前面的所有元素
+       var parvall1  =   $("#li5").prevAll()
+       console.log(parvall1)
+      
+    //    for(i in parvall1){
+    //     //    eq获取下标值
+    //        alert(parvall1.eq(i).text())
+    //    }
+    //  选择元素后面的所有同辈元素
+    var nextall = $('#li2').nextAll()
+    alert(nextall.eq(1).text())
+
+    // 获取该元素下的所有子节点
+    var list2 = $('ul').children()
+    // 获取当前元素的父节点
+    var  ul = $('#li2').parent()
+    // 获取当前元素的同胞元素
+    var lis = $('#li2').submit()
+    // 查找选择集中的某个元素
+    var li2 = $('#ul2').find('#li2')
+    // 选择某个选择集，获取包含某个的标签
+    var a2 = $('li').has('a')
+     // 选择某个选择集，获取不包含某个的标签
+     var a3 = $('li').not('a')
+    </script>
+
+
+</body>
+</html>

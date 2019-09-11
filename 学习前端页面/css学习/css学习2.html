@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>css02</title>
-    <style>
+    <style type="text/css">
       /*标签选择器*/
       body{
-      /*background:red*/
-	   /* background-image : url('css/1.jpg'); */
-	   /* background-repeat: no-repeat; */
-	   /*背景图片center 居中 top 上 right 右等可组合*/
-	  /* background-position:center top;*/
-	  /*  background-position: right center ;*/
-	  /*background-position:  center left ;*/
-	  /*背景图片根据定位像素点开始*/
-	  background-position: 200px 100px;
+		   /* 背景颜色 */
+	    /*background:red*/
+	       /* 背景图片 */
+	   background-image : url('css/1.jpg');
+	     /* 图片不够大小时会自动平铺 */
+	    background-repeat: no-repeat;
+	    /*背景图片center 居中 top 上 right 右等可组合*/
+	    /* background-position:center top;*/
+	    /*  background-position: right center ;*/
+	    /*background-position:  center left ;*/
+	    /*背景图片根据定位像素点开始*/
+	    background-position: 200px 100px;
 
       }
 	  /* 修改背景颜色方法1 */
@@ -72,7 +75,7 @@
       	color: red;
       }
       /*层级选择器*/
-      .box6{
+      .box6 div span{
 
       	background: red;
       	color: rgb(0,255,255);
@@ -81,12 +84,27 @@
       h1,h2,h3{
       	color: blue;
       }
-    /*伪选择器*/
+    /*伪选择器 鼠标点击*/
       .box1:hover{
        color: red;
        background: rgb(11,22,33,0.1);
 
-      }
+	  }
+	
+	/* 伪选择器 激活操作添加样式 */
+	  .input1:active {
+		  color: red;
+		  background:rgb(255, 0, 234,0.01);
+
+
+	}
+	/* 伪选择器 焦点添加样式 */
+	.input2:focus {
+		  color: red;
+		  background:rgb(255, 0, 234,0.01);
+
+
+	}
 
 
 
@@ -104,16 +122,19 @@
     	<li name='2'>2</li>
     	<li name='3'>3</li>
     </ul>
-    <div class="box6">
+    <div class="box6" style="width: 200px;height: 100%;">
     	<div>
     		<span>python</span>
-    	</div>
+		</div>
+		<span>java</span>
     </div>
     
 
     <h1>sa</h1>
     <h2>sa</h2>
-    <h3>hs</h3>
+	<h3>hs</h3>
+	<input type="text" class="input1" placeholder="请您输入信息">
+	<input type="text" class="input2" placeholder="请您输入信息">
 dsaffa
 </body>
 </html>
