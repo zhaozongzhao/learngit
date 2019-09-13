@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态添加输入框</title>
+    <script type="text/javascript" src="jquery_study/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <H3>添加用例参数</H3>
+    <form action="">
+         <!-- <input type="text" name="user" id="user"> <br>
+          <input type="password" name="pwd" id="pwd"> <br>
+          <input type="button" id="dj" value="点击登陆"> -->
+          <div class="div">
+                参数名：<input class="key" type="text" name="key" id="key"> 参数值：<input type="text" name="value" id="value" class="value"><br>
+
+          </div>
+
+    </form>
+    <script>
+     $(function(){
+        
+        
+        $(document).on('change', '.key', function(){
+             
+         
+                cone = '参数名：<input class="key" type="text" name="key" id="key"> 参数值：<input type="text" name="value" id="value" class="value"><br>'
+                $('.div').append(cone)
+                $()
+
+       
+        })
+    
+
+        }
+     )
+    
+    </script>
+        
+
+</body>
+</html>
