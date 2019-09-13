@@ -15,18 +15,42 @@
 </head>
 <body>
  <input id= 'btm' type="button" value="按钮"  >
+<form action="">
+   <input type="text" name="user" id="user" pattern="请输入账号" placeholder="请输入账号"><br>
+   <input type="password" name="pass" id="pwd" pattern="请输入密码" placeholder="请输入密码"><br>
+   <input type="button" value="点击登陆" id="dj" ><br>
+
+</form>
+
  <div class="box"  style="display: none"></div> 
  <script>
      $(function(){
         $('#btm').click(function(){
-           //  toggle 改变隐藏状态
+            //  toggle 改变隐藏状态
             //   $('.box').toggle();
             // 从上向下加载显示
-              $('.box').slideToggle()
-         
+            //   $('.box').slideToggle()
+            // fadeIn 不透明度的变化来实现所有匹配元素的淡入效果
+            // $('.box').fadeIn();
+            // fadeout 不透明度的变化来实现所有匹配元素的淡入效果
+            //    $('.box').fadeOut();
+            // $('.box').fadeToggle("slow","linear");
+            //用于创建自定义动画的函数
+            $('.box').animate({width:'100px',height:'100px',background:'blue'},1000).toggle();
+
+            
 
         })
 
+
+    })
+    $(function(){
+      $('#user').change(
+          function(){
+            $('.box').toggle()
+
+          }
+      )
 
     })
 </script>

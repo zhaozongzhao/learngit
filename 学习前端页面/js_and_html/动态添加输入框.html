@@ -20,13 +20,14 @@
     <script>
      $(function(){
         
-        
+        // 动态添加输入框，检测到输入框有输入内容
         $(document).on('change', '.key', function(){
-             
-         
+                
+                // 修改当前页面上的输入内容只有新添加的元素才能添加新的输入框
+                $('.key').removeClass().addClass('key1')
                 cone = '参数名：<input class="key" type="text" name="key" id="key"> 参数值：<input type="text" name="value" id="value" class="value"><br>'
                 $('.div').append(cone)
-                $()
+                
 
        
         })
