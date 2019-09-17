@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue导入方式1</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+   <div class="box" id = "app">
+        {{msg}}
+   </div>
+   <div id = 'app2' class="box">
+         <span v-bind:title="message">ahhshs</span>
+   
+      </div>
+      <div id="app3" class="box">
+           <p v-if='seen'>看见信息</p>
+           <ul v-for= 'i in todos' >
+              <li>{{i.text}}</li>
+            
+           </ul>
+
+      </div>
+      <div id="app-5">
+            <p>{{ message }}</p>
+            <button v-on:click="reverseMessage">反转消息</button>
+          </div>
+   
+    <script>
+        // vm实例，会控制id 为app元素中的所有内容
+        // vue 的实例就是MMVM中的VM控制器
+     let  vm = new Vue({
+        //  需要控制的位置
+      //   el:'#app',
+      //   // 代码数据，mvvM中的M
+      //   data:{
+      //       msg:'Hello  Vue学习页面1',
+            
+      //   },
+      //   el : '#app2',
+      //   data:{
+      //      message:'title' + new Date().toLocaleString(),
+      //   },
+      //   el:'#app3',
+      //   data:{
+      //      seen:'true',
+      //      todos:[
+      //         {text:'111'},
+      //         {text:'111'},
+      //         {text:'111'},
+
+      //      ]
+              
+      el: '#app-5',
+       data: {
+            message: 'Hello Vue.js!'
+        },
+       methods: {
+           reverseMessage: function () {
+           this.message = this.message.split('').reverse().join('')
+    }
+  }   
+        
+      
+     })
+    </script>
+    <style>
+       .box{
+          margin: 50px auto;
+          background: red; 
+          width: 200px;
+          height: 30px;
+
+       }
+    
+    
+    </style>
+</body>
+</html>

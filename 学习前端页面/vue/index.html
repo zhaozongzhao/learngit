@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Vue学习1</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
 </head>
 <body>
+    <!-- 控制的区域，是MVVM中的V视图 -->
+    <div class="box" id = "app">
+      {{msg}}
+
+    </div>
+    <script>
+        // vm实例，会控制id 为app元素中的所有内容
+        // vue 的实例就是MMVM中的VM控制器
+     let  vm = new Vue({
+        //  需要控制的位置
+        el:'#app',
+        // 代码数据，mvvM中的M
+        data:{
+            msg:'Hello  Vue学习页面1'
+        }
+
+     })
+    </script>
 
 </body>
 </html>

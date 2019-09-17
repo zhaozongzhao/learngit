@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue导入方式2</title>
+    <script src="/homework/vue导入包/vue.js"></script>
+</head>
+<body>
+      <div id = 'app2'>
+            <span v-bind:title="message">{{message}}</span>
+      
+         </div>
+    <script>
+        // vm实例，会控制id 为app元素中的所有内容
+        // vue 的实例就是MMVM中的VM控制器
+       Vue({
+        //  需要控制的位置
+        el:'#app2',
+        // 代码数据，mvvM中的M
+        data:{
+           // 鼠标显示动态信息
+           message:'titile名称'+ new Date().toLocaleString(),
+        }
+
+     })
+    </script>
+    <style>
+       #app{
+          margin: 50px auto;
+          background: red; 
+          width: 200px;
+          height: 30px;
+
+       }
+    
+    
+    </style>
+</body>
+</html>
