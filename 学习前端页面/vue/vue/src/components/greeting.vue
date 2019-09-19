@@ -11,7 +11,7 @@ export default {
     name : 'geeting',
     data(){
        return {
-           message:'hello Vue学习菜鸟'
+           message:'hello Vue学习菜鸟11'
        }
     }
 }
