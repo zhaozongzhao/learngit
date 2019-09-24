@@ -13,6 +13,13 @@ export default {
        return {
            message:'hello Vue学习菜鸟11'
        }
+    },
+    created(){
+      console.log('实例创建之后，能获取到this')
+      console.log('username: ',this.message)
+    },
+    mounted(){
+      console.log('vue实例挂载到DOM树之后')
     }
 }
 </script>

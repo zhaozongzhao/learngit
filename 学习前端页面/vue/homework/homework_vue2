@@ -1,0 +1,23 @@
+1.v-if和v-show有什区别? 
+      答： v-if 每次都会重新创建和删除元素，v-show 每次不会重新进行dom创建和删除操作，
+   知识切换了元素的display属性
+2,v-bind和v-on的作用
+     答： v-bind绑定属性值，v-on 绑定事件，用于绑定事件，事件触发之后可以执行js操作
+3，v-for有什么作用? 如何使用?            
+      答： v-for 循环遍历
+        <tr v-for="(item1 , key) in  projieces" :key="key">
+          <td>{{item1.name}}</td>
+          <td>{{item1.leader}}</td>
+          <td>{{item1.app_name}}</td>
+         
+      </tr>
+      data(){
+
+     return{
+         project_handers:['项目名称','项目负责人','P2P平台'],
+         projieces:[
+             {name:'前程贷',leader:'笨笨',app_name:'平台应用'},
+             {name:'前程贷',leader:'笨笨',app_name:'平台应用'},
+             {name:'前程贷',leader:'笨笨',app_name:'平台应用'},
+         ]
+     }
