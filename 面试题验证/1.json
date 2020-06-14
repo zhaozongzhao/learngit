@@ -1,0 +1,37 @@
+{
+   "item":{
+          "data": {
+            "text": "123",
+        },
+        "children": [{
+            "data": {
+                "text": "234"
+            },
+            "children": []
+        }, {
+            "data": {
+                "text": "345"
+            },
+            "children": [{
+                "data": {
+                    "text": "456"
+                },
+                "children": []
+            }, {
+                "data": {
+                    "text": "plid"
+                },
+                "children": [{
+                    "data": {
+                        "text": "567"
+                    },
+                    "children": [....]
+                }, {
+                    "data": {
+                        "text": "678"
+                    },
+                    "children": [...]
+                }
+                ]
+        },
+}

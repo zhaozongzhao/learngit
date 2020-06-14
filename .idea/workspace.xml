@@ -2,138 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d72e96d-48e1-405d-8f80-a6041ce10126" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax上课用/static/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/学习前端页面/vue/homework/CK_homework_vue01.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/学习前端页面/vue/homework/greeting.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/学习前端页面/vue/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/学习前端页面/js_and_html/动态添加输入框.html" afterPath="$PROJECT_DIR$/学习前端页面/js_and_html/动态添加输入框.html" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_grammar/高阶函数/函数/class_03day_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_grammar/高阶函数/函数/homework_03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_grammar/高阶函数/推倒式/class_02_list_dict_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_grammar/高阶函数/推倒式/homework_02day.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_grammar/高阶函数/数据类型拓展/class_02day_nametuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_grammar/高阶函数/数据类型拓展/class_02day_nametuple02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_grammar/高阶函数/闭包装饰器/calss_day04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic_grammar/高阶函数/闭包装饰器/常用的装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loucst/testloucst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipenv/.idea/pipenv.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipenv/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipenv/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/算法学习/练习/二分查找.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题验证/1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learngit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learngit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/.idea/dictionaries/hnbl009.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/.idea/guest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/guest/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/guest/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/guest/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/guest/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/templates/event_manage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/guest/sign/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/filew/filew.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_grammar/filew/filew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/面向对象学习/class1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_grammar/面向对象学习/class1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/@property1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/sorted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/使用@property.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/使用_slots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/使用枚举.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/偏函数.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/函数访问限制.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/匿名函数1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/实例属性和类属性.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/装饰器!.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/装饰器2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_grammar/高阶函数/装饰器3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmeticstudent/geck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arithmeticstudent/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/runtest1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testpro/count.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testpro/runtest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testpro/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testpro/testadd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testpro/testsub.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/.idea/xunihuanjing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/cj_homework_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/ck_homework_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/ck_homework_03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/ck_homework_04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/ck_homework_06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/test-03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/test04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/test05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/test06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/test_05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/zuoye1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/携程/ck_homework_10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gen.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gevenspawn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gevent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_greenlet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/线程/ck_homework_08.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/线程/ck_student_08_线程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/线程/student/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/线程/student/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/线程/通过类定义线程.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/进程/ck_homework_09.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test09.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_09_02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_pool_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_pool_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_process_global.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/ck_002/进程池.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/class_ck02/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/class_ck02/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/class_ck02/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/class_ckj01/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/class_ckj01/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/h.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xunihuanjing/笔记/Virtrualenv命令1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络通信/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络通信/tcp_c.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题验证/面试题1.py" beforeDir="false" afterPath="$PROJECT_DIR$/面试题验证/面试题1.py" afterDir="false" />
     </list>
-    <ignored path="learngit.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="learngit" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CK_homework_vue01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/学习前端页面/vue/homework/CK_homework_vue01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="greeting.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/学习前端页面/vue/homework/greeting.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19022457">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/学习前端页面/vue/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.333333">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/arithmeticstudent/data/whitch_day_1.0.py" />
-        <option value="$PROJECT_DIR$/API/guest/guest/settings.py" />
-        <option value="$PROJECT_DIR$/API/guest/guest/urls.py" />
-        <option value="$PROJECT_DIR$/Basic_grammar/数据库学习/mysql连接.py" />
-        <option value="$PROJECT_DIR$/xinyuezx/xinyuedata/run_xinyue_test.py" />
-        <option value="$PROJECT_DIR$/Basic_grammar/高阶函数/@property1.py" />
-        <option value="$PROJECT_DIR$/Basic_grammar/JSON数据解析/JSon解析1.py" />
-        <option value="$PROJECT_DIR$/Basic_grammar/LIst1/list3.py" />
-        <option value="$PROJECT_DIR$/Basic_grammar/LIst1/list4.py" />
-        <option value="$PROJECT_DIR$/test4.py" />
-        <option value="$PROJECT_DIR$/Basic_grammar/迭代器/简单的迭代.py" />
-        <option value="$PROJECT_DIR$/test5.py" />
-        <option value="$PROJECT_DIR$/test6.py" />
-        <option value="$PROJECT_DIR$/网络通信/tcp_c.py" />
-        <option value="$PROJECT_DIR$/面试题验证/1.txt" />
-        <option value="$PROJECT_DIR$/面试题验证/面试题编程题1.py" />
-        <option value="$PROJECT_DIR$/面试题验证/面试题1.py" />
-        <option value="$PROJECT_DIR$/ck_zuoye/h.md" />
-        <option value="$PROJECT_DIR$/ck_zuoye/ck_homework_01.py" />
-        <option value="$PROJECT_DIR$/ck_zuoye/ck_homework_03.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/test04.py" />
-        <option value="$PROJECT_DIR$/Basic_grammar/dict/dict.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/test_05.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/ck_homework_04.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/线程/通过类定义线程.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/线程/ck_student_08_线程.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/线程/ck_homework_08.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/携程/ck_homework_10.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test09.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_process_global.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gen.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_greenlet.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/进程池.py" />
-        <option value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/gevent/monkey.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gevent.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gevenspawn.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_pool_01.py" />
-        <option value="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_pool_manager.py" />
-        <option value="$PROJECT_DIR$/学习前端页面/02.html" />
-        <option value="$PROJECT_DIR$/学习前端页面/test_11day_html01.html" />
-        <option value="$PROJECT_DIR$/学习前端页面/test_11day_02.html" />
-        <option value="$PROJECT_DIR$/Basic_grammar/LIst1/冒泡.py" />
-        <option value="$PROJECT_DIR$/学习前端页面/css学习/css学习2.html" />
-        <option value="$PROJECT_DIR$/学习前端页面/js_and_html/jquery_student02.html" />
-        <option value="$PROJECT_DIR$/学习前端页面/js_and_html/动态添加输入框.html" />
-        <option value="$PROJECT_DIR$/ajax上课用/httpserver.py" />
-        <option value="$PROJECT_DIR$/ajax上课用/static/js/main.js" />
-        <option value="$PROJECT_DIR$/学习前端页面/vue/homework/ch_homework.py" />
-        <option value="$PROJECT_DIR$/学习前端页面/vue/index.html" />
-        <option value="$PROJECT_DIR$/学习前端页面/vue/homework/CK_homework_vue01.py" />
-        <option value="$PROJECT_DIR$/学习前端页面/vue/homework/greeting.vue" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="23" />
-    <option name="width" value="1392" />
-    <option name="height" value="877" />
-  </component>
+  <component name="ProjectId" id="1VhvWWJ39rk5ySGQLSth5TfipE7" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -150,338 +149,38 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="面试题验证" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xunihuanjing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xunihuanjing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ck_002" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="learngit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xunihuanjing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ck_002" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="携程" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="learngit">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="learngit">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="学习前端页面">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="learngit">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="学习前端页面">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="learngit">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="学习前端页面">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="learngit">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="学习前端页面">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="homework">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/学习前端页面/vue/vue" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="excel&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="excel&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Basic_grammar/高阶函数/数据类型拓展" />
+      <recent name="$PROJECT_DIR$/pipenv" />
+      <recent name="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Basic_grammar" />
       <recent name="$PROJECT_DIR$/xunihuanjing/ck_002" />
       <recent name="$PROJECT_DIR$/xunihuanjing" />
-      <recent name="$PROJECT_DIR$/Basic_grammar" />
       <recent name="$PROJECT_DIR$/xinyuezx/driver" />
       <recent name="$PROJECT_DIR$/Basic_grammar/数据库学习" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.httpserver">
-    <configuration default="false" name="test_10day_gevenspawn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xunihuanjing/ck_002/携程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gevenspawn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_pool_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xunihuanjing/ck_002/进程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_pool_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_pool_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xunihuanjing/ck_002/进程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_pool_manager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="冒泡" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_grammar/LIst1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_grammar/LIst1/冒泡.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="httpserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ajax上课用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ajax上课用/httpserver.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.match函数">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -501,93 +200,140 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration name="常用的装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learngit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_grammar/高阶函数/闭包装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_grammar/高阶函数/闭包装饰器/常用的装饰器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration name="面试题1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learngit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/面试题验证" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题验证/面试题1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
+    <configuration name="二分查找" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learngit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法学习/练习" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法学习/练习/二分查找.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
+    <configuration name="二分查找" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learngit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法学习/练习" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法学习/练习/二分查找.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="false" name="match函数" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="calss_day04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learngit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_grammar/高阶函数/闭包装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_grammar/高阶函数/闭包装饰器/calss_day04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class_03day_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learngit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basic_grammar/高阶函数/函数" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_grammar/高阶函数/函数/class_03day_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="match函数" type="PythonConfigurationType" factoryName="Python">
+      <module name="learngit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -598,31 +344,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="learngit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basic_grammar/正则表达式/match函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.match函数" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test_10day_gevenspawn" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_pool_01" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test_pool_manager" />
-      <item index="4" class="java.lang.String" itemvalue="Python.冒泡" />
-      <item index="5" class="java.lang.String" itemvalue="Python.httpserver" />
+    <list>
+      <item itemvalue="Python.面试题1" />
+      <item itemvalue="Python.常用的装饰器" />
+      <item itemvalue="Python.calss_day04" />
+      <item itemvalue="Python.class_03day_function" />
+      <item itemvalue="Python.match函数" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.httpserver" />
-        <item index="1" class="java.lang.String" itemvalue="Python.冒泡" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_pool_manager" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_pool_01" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_10day_gevenspawn" />
+      <list>
+        <item itemvalue="Python.常用的装饰器" />
+        <item itemvalue="Python.class_03day_function" />
+        <item itemvalue="Python.面试题1" />
+        <item itemvalue="Python.calss_day04" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -631,92 +378,25 @@
       <changelist id="5d72e96d-48e1-405d-8f80-a6041ce10126" name="Default" comment="" />
       <created>1524018115358</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1524018115358</updated>
+      <workItem from="1577718174422" duration="1524000" />
+      <workItem from="1577721417904" duration="1573000" />
+      <workItem from="1577778098139" duration="549000" />
+      <workItem from="1577783832919" duration="238000" />
+      <workItem from="1577784138349" duration="4256000" />
+      <workItem from="1578146197692" duration="278000" />
+      <workItem from="1578146859687" duration="41000" />
+      <workItem from="1578147090862" duration="790000" />
+      <workItem from="1587560706790" duration="98000" />
+      <workItem from="1589296996523" duration="2624000" />
+      <workItem from="1589300943844" duration="2327000" />
+      <workItem from="1591195004808" duration="654000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Unittest_Test2_test_5 - 2018.06.04 at 20h 20m 35s.xml">
-      <configuration name="Unittest Test2.test_5" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Test2_test_6 - 2018.06.04 at 20h 15m 44s.xml">
-      <configuration name="Unittest Test2.test_6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Test2_test_6 - 2018.06.04 at 20h 23m 38s.xml">
-      <configuration name="Unittest Test2.test_6" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_Test2_test_6_(1) - 2018.06.04 at 20h 19m 32s.xml">
-      <configuration name="Unittest Test2.test_6 (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test2 - 2018.06.04 at 20h 16m 45s.xml">
-      <configuration name="Unittests in Test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test2 - 2018.06.04 at 20h 17m 07s.xml">
-      <configuration name="Unittests in Test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test2 - 2018.06.04 at 20h 18m 41s.xml">
-      <configuration name="Unittests in Test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test2 - 2018.06.04 at 20h 19m 08s.xml">
-      <configuration name="Unittests in Test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Test2 - 2018.06.04 at 20h 19m 18s.xml">
-      <configuration name="Unittests in Test2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_apitest2 - 2018.05.11 at 18h 51m 47s.xml">
-      <configuration name="Unittests in test_apitest2" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="48" y="23" width="1392" height="877" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19256018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4947146" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3192771" sideWeight="0.51944447" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49753347" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4947146" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4947146" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38471338" sideWeight="0.51932895" order="2" side_tool="true" content_ui="tabs" x="0" y="287" width="1440" height="276" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.4947146" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38500634" sideWeight="0.48067105" order="3" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3200469" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3200469" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" x="0" y="287" width="1440" height="276" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39742085" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -726,8 +406,87 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589300601400">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589300601400" />
+    <state x="623" y="173" key="#xdebugger.evaluate" timestamp="1589301189394">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="623" y="173" key="#xdebugger.evaluate/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301189394" />
+    <state width="726" height="291" key="GridCell.Tab.0.bottom" timestamp="1589765530642">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1419" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-63.1920.1057@0.0.1440.900" timestamp="1586855051331" />
+    <state width="1398" height="291" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301650973" />
+    <state width="716" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580713461223" />
+    <state width="1419" height="202" key="GridCell.Tab.0.bottom/0.23.1440.797/-1920.-63.1920.1057@0.23.1440.797" timestamp="1587032277821" />
+    <state width="726" height="291" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1589765530642" />
+    <state width="726" height="291" key="GridCell.Tab.0.center" timestamp="1589765530642">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1419" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-63.1920.1057@0.0.1440.900" timestamp="1586855051329" />
+    <state width="1398" height="291" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301650971" />
+    <state width="716" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580713461220" />
+    <state width="1419" height="202" key="GridCell.Tab.0.center/0.23.1440.797/-1920.-63.1920.1057@0.23.1440.797" timestamp="1587032277819" />
+    <state width="726" height="291" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1589765530642" />
+    <state width="726" height="291" key="GridCell.Tab.0.left" timestamp="1589765530641">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1419" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-63.1920.1057@0.0.1440.900" timestamp="1586855051328" />
+    <state width="1398" height="291" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301650970" />
+    <state width="716" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580713461219" />
+    <state width="1419" height="202" key="GridCell.Tab.0.left/0.23.1440.797/-1920.-63.1920.1057@0.23.1440.797" timestamp="1587032277819" />
+    <state width="726" height="291" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1589765530641" />
+    <state width="726" height="291" key="GridCell.Tab.0.right" timestamp="1589765530642">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1419" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-63.1920.1057@0.0.1440.900" timestamp="1586855051330" />
+    <state width="1398" height="291" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301650972" />
+    <state width="716" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580713461221" />
+    <state width="1419" height="202" key="GridCell.Tab.0.right/0.23.1440.797/-1920.-63.1920.1057@0.23.1440.797" timestamp="1587032277820" />
+    <state width="726" height="291" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1589765530642" />
+    <state width="1398" height="113" key="GridCell.Tab.1.bottom" timestamp="1589765530619">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="291" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301651262" />
+    <state width="1398" height="113" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1589765530619" />
+    <state width="1398" height="113" key="GridCell.Tab.1.center" timestamp="1589765530618">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="291" key="GridCell.Tab.1.center/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301651261" />
+    <state width="1398" height="113" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1589765530618" />
+    <state width="1398" height="113" key="GridCell.Tab.1.left" timestamp="1589765530618">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="291" key="GridCell.Tab.1.left/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301651260" />
+    <state width="1398" height="113" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1589765530618" />
+    <state width="1398" height="113" key="GridCell.Tab.1.right" timestamp="1589765530618">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="291" key="GridCell.Tab.1.right/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589301651261" />
+    <state width="1398" height="113" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1589765530618" />
+    <state x="221" y="98" key="SettingsEditor" timestamp="1586242628064">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580713524412" />
+    <state x="221" y="98" key="SettingsEditor/0.23.1440.797/-1920.-63.1920.1057@0.23.1440.797" timestamp="1586242628064" />
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1587020994993">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1585496871243" />
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1585971666362" />
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.797/-1920.-63.1920.1057@0.23.1440.797" timestamp="1587020994993" />
+    <state x="397" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1583152598075" />
+    <state x="262" y="186" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1589300499009">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="262" y="186" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900/-1920.-86.1920.1080@0.0.1440.900" timestamp="1589300499009" />
+    <state x="420" y="178" width="600" height="486" key="find.popup" timestamp="1589297725104">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="420" y="178" width="600" height="486" key="find.popup/0.23.1440.877/-1920.-63.1920.1057@0.23.1440.877" timestamp="1589297725104" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,9 +541,6 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -792,393 +548,6 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="54" />
     </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm50/python_stubs/-2010535109/_collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40075615">
-          <caret line="196" column="8" selection-start-line="196" selection-start-column="8" selection-end-line="200" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3327032">
-          <caret line="199" column="24" selection-start-line="199" selection-start-column="24" selection-end-line="199" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/cj_homework_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/ck_homework_06.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/zuoye1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/线程/ck_homework_08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/携程/ck_homework_10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm50/python_stubs/-2010535109/greenlet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/gevent/hub.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.002004">
-          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/gevent/monkey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21643287">
-          <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/进程池.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_greenlet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57715434">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gevent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/ck_homework_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gevenspawn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_process_global.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2647059">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_09_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9852941">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/进程/test09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7867647">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/携程/test_10day_gen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/进程/ck_homework_09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6691176">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/ck_homework_04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.110294">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1565926506507" expanded="true" signature="913:918" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_pool_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80597013">
-          <caret line="36" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xunihuanjing/ck_002/进程/test_pool_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6268657">
-          <caret line="28" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/test_11day_02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20491803">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/test_11day_html01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024590164">
-          <caret line="1" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arithmeticstudent/dice/dict08_1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_grammar/LIst1/list4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67105263">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic_grammar/LIst1/冒泡.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/css学习/css学习2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5555553">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/js_and_html/javascript操作页面.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="16.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/js_and_html/jquery_student01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="27.62963">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/js_and_html/jquery_student02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.037037">
-          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax上课用/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/js_and_html/Control.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.49315068">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/js_and_html/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/js_and_html/jsstudy1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1205479">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.26153848">
-          <caret line="1223" column="8" selection-start-line="1223" selection-start-column="8" selection-end-line="1223" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax上课用/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.541502">
-          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#1966#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax上课用/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax上课用/templates/html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5081967">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax上课用/httpserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5019763">
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/js_and_html/动态添加输入框.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48360655">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/vue/vue/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.6136364">
-            <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/vue/vue/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/vue/vue/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1803279">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/vue/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.333333">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/vue/homework/CK_homework_vue01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/学习前端页面/vue/homework/greeting.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19022457">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

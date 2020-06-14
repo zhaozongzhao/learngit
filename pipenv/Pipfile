@@ -4,13 +4,18 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-requests = "*"
 v = {editable = true,version = "*"}
 
 [packages]
-selenium = "*"
+selenium = "==4.0.0a3"
 request = "*"
 django = "*"
+pip = "*"
+htmltestrunner = "*"
+setuptools = "==44.0.0"
+ddt = "*"
+locust = "*"
+locustio = "*"
 
 [requires]
 python_version = "3.7"
