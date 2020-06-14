@@ -49,7 +49,7 @@ if __name__ == "__main__":
     my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     print(binary_aearch(my_list, 7))
 
-    print(get_square(128))
+    print(get_square(256))
 
 
 
